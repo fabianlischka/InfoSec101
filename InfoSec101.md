@@ -220,9 +220,9 @@ A password based on a long, creative passphrase might really be the state of the
 - If you ignore warnings about security certificates, MITM ("men in the middle") attackers can read all your traffic (incl. password)
 - Always use HTTPS, if possible, as it encrypts your traffic. Some browser extensions do this for you automatically
 - Some background:
-    - ["Can't trust Uber", in the NY Times](http://www.nytimes.com/2014/12/08/opinion/we-cant-trust-uber.html?_r=0)
-    - FIXFIX Economist Special Report on Digital Advertising Industry
-    - ["DEFCON 19: Tracking the Trackers: How Our Browsing History Is Leaking into the Cloud", Youtube](https://www.youtube.com/watch?v=BK_E3Bjpe0E)
+    - ["Getting to know you"](http://www.economist.com/news/special-report/21615871-everything-people-do-online-avidly-followed-advertisers-and-third-party), The Economist, part of an insightful [Special Report: Advertising and Technology](http://www.economist.com/news/special-report/21615869-technology-radically-changing-advertising-business-profound-consequences).
+    - ["Can't trust Uber"](http://www.nytimes.com/2014/12/08/opinion/we-cant-trust-uber.html?_r=0), in the NY Times
+    - ["DEFCON 19: Tracking the Trackers: How Our Browsing History Is Leaking into the Cloud"](https://www.youtube.com/watch?v=BK_E3Bjpe0E), Youtube
     
     
 #### Suggested Tools: Secure Browsing - Search Engines
