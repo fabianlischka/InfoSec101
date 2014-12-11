@@ -1,7 +1,7 @@
 InfoSec101
 ==========
 
-An introduction to Information Security for (non-IT) professionals, e.g. Journalists, Doctors, Lawyers, etc.
+An introduction to Information Security for (non-IT) professionals, e.g. journalists, doctors, lawyers, political activists, etc.
 
 Notes:
 * This is intended as a supplement to a talk about Information Security, as a resource with 
@@ -10,10 +10,11 @@ Notes:
   * links to further background and resources if desired.
 * Given that it is intended as a supplement to a live talk, it need not be fully self-contained.
 * Goals:
-  * cover the basics to 
-    * protect (non-IT) professionals (ie smart people, but not computer/IT/crypto experts)
+  * cover the basics 
+    * to protect (non-IT) professionals (ie smart people, but not computer/IT/crypto experts) and their assets
     * from opportunistic and primitive targeted attacks 
-      (ie against random hackers and criminals, government mass surveillance, etc.)
+      (ie against random hackers and criminals, government mass surveillance, etc.).
+    * and to circumvent online censorship, e.g. in some places near Hong Kong
   * not to overwhelm busy professionals with too much irrelevant details
   * editorialise heavily, in the sense of recommending one or two "best" apps in a category, instead of 
     providing an endless list.
