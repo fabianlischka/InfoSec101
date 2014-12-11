@@ -1,6 +1,3 @@
-Title:	Information Security for (Non-IT) Professionals  
-Author:	Fabian R Lischka  
-Date:	2014-12-09  XHTML XSLT:	/Users/frl/Documents/Meins/Coding/InfoSec/xhtml-toc.xslt
 
 # Information Security for (Non-IT) Professionals
 
@@ -63,6 +60,12 @@ Edward Snowden, Interview with Hubert Siebel (NDR/ARD), 2014-01-22. Source: [Sno
 ---
 > The powerful and famous -- from Oliver North back in 1987 to Anthony Weiner in 2011 -- have been brought down by e-mails, texts, tweets and posts they thought private. [Source: CNN](http://edition.cnn.com/2014/03/26/opinion/schneier-snapchat-wickr/index.html)
 
+---
+> [T]he NSA can eavesdrop on most of the world's cell phone networks, and [...] it tracks location data. [...] [A company] sells a system that can "locate and track any phone number in the world...undetected and unknown by the network, carrier, or the target." [Source: Bruce Schneier's Blog](https://www.schneier.com/blog/archives/2014/12/nsa_hacking_of_.html)
+
+---
+
+ 
 ### Why should you care?
 
 
@@ -207,6 +210,8 @@ A password based on a long, creative passphrase might really be the state of the
 - Search engines and social networks collect a lot information about you (even while you visit other websites), and sell it. 
 - Facebook is notified whenever you visit one of the millions of sites that has a "Like" button. Similarly for Twitter, Google, etc.
 - For example, if you read an article in the NY Times about depression, or HIV treatment, or bankruptcy law, Facebook and Google will be notified that that is an interest of yours (and their Terms of Service will specify whether they're allowed to serve you related ads, save the information, or sell it - good luck finding out).
+- How unique is your browser setup? Can you be uniquely identified by your browser alons? Find out with [Panopticlick](https://panopticlick.eff.org) from the EFF.
+- From your IP address, your approximate location can be determined. See for example [IPLeak](http://ipleak.net).
 - A few steps you can take:
     - Regularly delete all cookies/history
     - Browse in Private mode ("porn mode")
@@ -246,7 +251,7 @@ A password based on a long, creative passphrase might really be the state of the
   - **Adblock Plus**: Blocks ads when browsing. Android, Chrome, Firefox, IE, Opera, Safari. Lets “acceptable ads” through by default. [Link](https://adblockplus.org)
   - **Disconnect**: Stops trackers when browsing. USD 50/a. Open Source. OS X, Win, Android, iOS [Link](https://disconnect.me)
 
-- Note: On Android, these apps are banned from the Play Store, because they (obviously) interfere with Google's business model. [Source: Disconnect Blog](https://blog.disconnect.me/blog/google-just-banned-our-new-android-app-before-it-even-launched-another-example-of-why-privacy-friendly-alternatives-for-android-app-distribution-are-critically-important)
+- Note: On Android, some of these apps are banned from the Play Store, because they  interfere with Google's business model. [Source: Disconnect Blog](https://blog.disconnect.me/blog/google-just-banned-our-new-android-app-before-it-even-launched-another-example-of-why-privacy-friendly-alternatives-for-android-app-distribution-are-critically-important)
 - Also see [Browser Addons on Prism Break](http://prism-break.org/en/all/#web-browser-addons), and a [comparison](http://www.areweprivateyet.com)
 
 #### Advanced Steps: Browsing
@@ -292,7 +297,7 @@ A password based on a long, creative passphrase might really be the state of the
 - many providers
     - there is no free lunch: expect to pay for good service (about USD 5/month)
     - **AirVPN**: VPN provider with strong committment to security, privacy. [Link](https://airvpn.org)
-
+- to test whether the VPN works correctly, visit [IPLeak](http://ipleak.net), for example, and see what it thinks your IP address and location are.
 
 #### First Steps: Secure Chat and Voice Calls
 
