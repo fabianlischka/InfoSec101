@@ -1,3 +1,5 @@
+(Note: this is the README with some meta-information. For the introduction/notes itself, please click `InfoSec101.md` above, or [here](https://github.com/fabianlischka/InfoSec101/blob/master/InfoSec101.md).)
+
 InfoSec101
 ==========
 
