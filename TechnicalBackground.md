@@ -1,3 +1,6 @@
+---
+---
+
 # Information Security for (Non-IT) Professionals
 
 ## Some Technical Background Knowledge
