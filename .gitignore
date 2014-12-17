@@ -1,0 +1,6 @@
+old/
+*.html
+*.numbers
+_site/
+.sass-cache/
+
