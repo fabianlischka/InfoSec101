@@ -1,19 +1,27 @@
-# Site settings
+# used by Hyde
 title: InfoSec101
 email: infosec101@fabian-lischka.de
 tagline: "InfoSec 101 for (non-IT) Professionals"
 description: "An introduction to Information Security 101 for Journalists, 
 Doctors, Lawyers, and other (non-IT) Professionals"
-baseurl: "/"
-url: "http://fabianlischka.github.io/InfoSec101"
 
 twitter_username: false
 github_username: fabianlischka
-# isso_domain: comments.mysite.org
+
+github:
+  repo:           https://github.com/fabianlischka/InfoSec101
 
 author:
   name:           'Fabian R Lischka'
 #  url:            https://www.something.de
+
+
+
+
+baseurl: "/InfoSec101"
+# url: "http://fabianlischka.github.io/InfoSec101" needed?
+
+
   
 # Build settings
 exclude: ["old/","*.numbers"]
@@ -22,23 +30,12 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
+relative_permalinks: false
 
 
-
+# old stuff
+# when using hyde's index.html, which creates a paginated list of blog posts:
+# paginate:         5
 
 # url:              http://hyde.getpoole.com
 # baseurl:          /
-
-# paginate:         5
-
-
-github:
-  repo:           https://github.com/fabianlischka/InfoSec101
