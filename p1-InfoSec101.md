@@ -23,7 +23,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 ---
 
    
-## [Passwords](id:steps-passwords)
+## <a name="steps-passwords"></a> Passwords
     
 ### First Steps: Passwords
 
@@ -89,7 +89,7 @@ A password based on a long, creative passphrase might really be the state of the
       - **LastPass**: Password manager, most platforms. Cloud only. Commercial, basic use free, 12 USD/a for smartphone use. Closed. [Link](https://lastpass.com)
 - Also see [Password managers on Prism Break](http://prism-break.org/en/all/#password-managers)
 
-## [Disk Encryption](id:steps-diskencr)
+## <a name="steps-diskencr"></a> Disk Encryption
 
 ### First Steps: Disk Encryption
 
@@ -109,7 +109,7 @@ A password based on a long, creative passphrase might really be the state of the
   - **TrueCrypt** appears to have some issues, the developers don't recommend its use anymore
 - Also see [Disk Encryption on Prism Break](http://prism-break.org/en/all/#disk-encryption)
 
-## [Browsing](id:steps-browse)
+## <a name="steps-browse"></a> Browsing
 
 ### First Steps: Browsing
 
@@ -177,7 +177,7 @@ A password based on a long, creative passphrase might really be the state of the
   
 - Also see [Web Browser on Prism Break](http://prism-break.org/en/all/#web-browsers)
 
-## [Virtual Private Networks](id:steps-vpns)
+## <a name="steps-vpns"></a> Virtual Private Networks
 
 ### First Steps: VPNs
 
@@ -197,7 +197,7 @@ A password based on a long, creative passphrase might really be the state of the
     - **AirVPN**: VPN provider with strong committment to security, privacy. [Link](https://airvpn.org)
 - to test whether the VPN works correctly, visit [IPLeak](http://ipleak.net), for example, and see what it thinks your IP address and location are.
 
-## [Chat and Voice Calls](id:steps-chat)
+## <a name="steps-chat"></a> Chat and Voice Calls
 
 ### First Steps: Secure Chat and Voice Calls
 
@@ -253,7 +253,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 - Also see [Prism Break on Video/Voice](http://prism-break.org/en/all/#video-voice)
 
-## [Cloud Storage](id:steps-cloud)
+## <a name="steps-cloud"></a> Cloud Storage
 
 ### Suggested Tools: Cloud Storage
 
@@ -262,7 +262,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 - Also see [Prism Break on File Storage](http://prism-break.org/en/all/#file-storage-sync)
 
-## [Email](id:steps-email)
+## <a name="steps-email"></a> Email
 
 ### Advanced Steps: Secure Email
 
@@ -285,7 +285,7 @@ A password based on a long, creative passphrase might really be the state of the
 - Not recommended at all for sensitive information: Normal email
 
 
-## [Miscellanous]
+## Miscellanous
 
 ### First Steps: Multiple Accounts
 

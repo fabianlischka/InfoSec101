@@ -49,7 +49,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 
 ---
 
-## [What to do: Mac](id:wtd-mac)
+## <a name="wtd-mac"></a> What to do: Mac
 
 ### What to do: Mac - today
 
@@ -86,7 +86,8 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
     - consider joining [keybase.io](https://keybase.io)
     - download other people's public keys, and send them your first encrypted message
 
-## [What to do: Windows](id:wtd-win)
+## <a name="wtd-win"></a> What to do: Windows
+
 ### What to do: Windows - Today
 
 - In your browser:
@@ -114,7 +115,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 - Consider 
     - **Pidgin + OTR**: OTR chat for Windows, EFF score 7/7. [Link](https://otr.cypherpunks.ca)
 
-## [What to do: iOS](id:wtd-ios)
+## <a name="wtd-ios"></a> What to do: iOS
 
 ### What to do: iOS - Today
 - Switch your search engine to DuckDuckGo (Settings -> Safari -> Search Engine)
@@ -139,7 +140,8 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 - maybe install CryptoCat, maybe ChatSecure (OTR messaging) for more chat options
 
 
-## [What to do: Android](id:wtd-android)
+## <a name="wtd-android"></a> What to do: Android
+
 ### What to do: Android - Today
 
 ??? TBD
@@ -148,7 +150,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 
 ??? TBD
 
-## [Further Resources](id:further-links)
+## <a name="further-links"></a> Further Resources
 
 ### Guides
 
