@@ -1,6 +1,6 @@
 # Site settings
 title: InfoSec101
-email: infosec101@fabian-lischka.description
+email: infosec101@fabian-lischka.de
 tagline: "InfoSec 101 for (non-IT) Professionals"
 description: "An introduction to Information Security 101 for Journalists, 
 Doctors, Lawyers, and other (non-IT) Professionals"
@@ -9,12 +9,11 @@ url: "http://fabianlischka.github.io/InfoSec101"
 
 twitter_username: false
 github_username: fabianlischka
-disqus_username: false
 # isso_domain: comments.mysite.org
 
 author:
   name:           'Fabian R Lischka'
-  url:            https://fabian-lischka.de
+#  url:            https://www.something.de
   
 # Build settings
 exclude: ["old/","*.numbers"]
