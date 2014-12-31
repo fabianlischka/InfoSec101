@@ -1,0 +1,45 @@
+# Site settings
+title: InfoSec101
+email: infosec101@fabian-lischka.description
+tagline: "InfoSec 101 for (non-IT) Professionals"
+description: "An introduction to Information Security 101 for Journalists, 
+Doctors, Lawyers, and other (non-IT) Professionals"
+baseurl: "/"
+url: "http://fabianlischka.github.io/InfoSec101"
+
+twitter_username: false
+github_username: fabianlischka
+disqus_username: false
+# isso_domain: comments.mysite.org
+
+author:
+  name:           'Fabian R Lischka'
+  url:            https://fabian-lischka.de
+  
+# Build settings
+exclude: ["old/","*.numbers"]
+markdown: redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+
+
+
+# url:              http://hyde.getpoole.com
+# baseurl:          /
+
+# paginate:         5
+
+
+github:
+  repo:           https://github.com/fabianlischka/InfoSec101
