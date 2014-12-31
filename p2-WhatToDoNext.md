@@ -8,7 +8,7 @@ Here you'll find some concrete steps (some simple, some a bit more involved) to 
 ### What to do
 - [for Macs (OS X)](#wtd-mac)
 - [for Windows](#wtd-win)
-- [for iPhones (iOS)](#wtd-iOS)
+- [for iPhones (iOS)](#wtd-ios)
 - [for Android](#wtd-android)
 
 ## Suggested Tools: Selection & Criteria
