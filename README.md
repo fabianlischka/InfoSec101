@@ -1,4 +1,4 @@
-(Note: this is the README with some meta-information. For the introduction/notes itself, please click `InfoSec101.md` above, or [here](https://github.com/fabianlischka/InfoSec101/blob/master/InfoSec101.md).)
+(Note: this is the README with some meta-information. For the introduction/notes itself, see [here](http://fabianlischka.github.io/InfoSec101/).)
 
 InfoSec101
 ==========
@@ -7,14 +7,13 @@ An introduction to Information Security for (non-IT) professionals, e.g. journal
 
 Notes:
 * This is intended as a supplement to a talk about Information Security, as a resource with 
-  * things to do
   * links to tools and apps to install, and
   * links to further background and resources if desired.
 * Given that it is intended as a supplement to a live talk, it need not be fully self-contained.
 * Goals:
   * cover the basics 
     * to protect (non-IT) professionals (ie smart people, but not computer/IT/crypto experts) and their assets
-    * from opportunistic and primitive targeted attacks 
+    * from opportunistic, and maybe primitive targeted attacks 
       (ie against random hackers and criminals, government mass surveillance, etc.).
     * and to circumvent online censorship, e.g. in some places near Hong Kong
   * not to overwhelm busy professionals with too much irrelevant details
