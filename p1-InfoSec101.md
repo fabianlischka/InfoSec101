@@ -287,7 +287,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 ## Miscellanous
 
-### First Steps: Multiple Accounts
+### Multiple Accounts
 
 - consider having multiple separated accounts on your machine, for 
     - work
@@ -296,4 +296,22 @@ A password based on a long, creative passphrase might really be the state of the
     - sensitive projects etc.
 - use shared folders to move information between them in a controlled matter
 - a bit of inconvenience because you have to re-enter passwords etc., but it makes leaks of information much harder
+
+### Defense in Depth
+
+- Defense in Depths: the idea that multiple layers of protection might be best
+- If the adversary breaks one layer, the information is still protected
+- for example:
+    - agree on code words for sensitive entities
+    - transmit part of the information in iMessage, part on Signal/Redphone, part on Telegram, part on Wickr, such that having any one part is pretty useless
+    - use TOR over a VPN
+    - etc.
+    
+### Information Leaks
+
+- If you give someone information, you might reveal more than you thought:
+    - Your phone number, email can be googled: what to they reveal?
+    - Reverse Image Search sites such as [TinEye](http://tineye.com) or [Google](http://www.google.com/insidesearch/features/images/searchbyimage.html) allow someone to see whether a picture appears elsewhere on the net, eg Facebook, LinkedIn, Twitter, or your employer's website
+    - A picture contains embedded information ("[EXIF data](https://en.wikipedia.org/wiki/Exchangeable_image_file_format)") that frequently contains the time and location the picture was taken
+    - As discussed, the IP address of your computer can lead to you, or your ISP.
 
