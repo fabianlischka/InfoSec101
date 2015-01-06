@@ -1,5 +1,7 @@
 (Note: this is the README with some meta-information. For the introduction/notes itself, see [here](http://fabianlischka.github.io/InfoSec101/).)
 
+(Note: the "meat" is in the files named p?-[a-z]*.html.)
+
 InfoSec101
 ==========
 
