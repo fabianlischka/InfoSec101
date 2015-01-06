@@ -19,12 +19,12 @@ We recommend only a small subset of all available tools - the ones we consider "
 - average (or slightly higher) need for privacy and security of information.
   - Note that life-and-death situations require stronger solutions (and much more paranoia) than we can cover here!
 
-How to evaluate which cryptographic tools to use?
+### How to evaluate which cryptographic tools to use?
 
-- Cryptography is hard!
+- Fact: Cryptography is hard!
     - Weakest Link property: Adversary only needs to break the weakest link in the chain
     - Adversary is not playing fair: Timing attacks, Side channel attacks, Chosen Plaintext attacks, etc. 
-- Desireable Attributes of a tool:
+- Thus: Desireable Attributes of a tool:
     - Organizational properties
         - Open Source
         - Security Audit
@@ -35,10 +35,10 @@ How to evaluate which cryptographic tools to use?
         - Perfect forward secrecy
     - Price
         - We give preference to free/open source tools,
-        - But we will list commercial solutions if they provide benefits
+        - But we will list commercial solutions if they provide clear benefits (such as ease of use, better support, etc.)
         - However, very expensive tools will be penalized.
         
-Thus, our list below includes tools that are not too hard to use, preferably open source, with good enough crypto, preferably cheap or free.
+In summary, our list below includes tools that are not too hard to use, preferably open source, with good enough crypto, preferably cheap or free.
 
 
 ### xkcd on: Security and the Weakest Link
@@ -73,7 +73,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 
 ### What to do: Mac - If you have a Weekend
 
-- Enable FileVault, best overnight (System Preferences -> Security & Privacy -> FileVault)
+- Enable FileVault (Disk Encryption), best overnight (System Preferences -> Security & Privacy -> FileVault)
 - (in Safari -> Preferences -> Privacy, occasionally remove all website data. Note that you'll have to log in fresh to all websites, so only do this if you know all your passwords, or have a password manager)
 - Get started with a Password Manager
     - If you're only on Safari (Mac and iOS), Keychain is great
