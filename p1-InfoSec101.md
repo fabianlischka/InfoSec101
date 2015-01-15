@@ -18,7 +18,7 @@ More secure...
 
 ![PHD comics: Coffee Security](http://www.phdcomics.com/comics/archive/phd080913s.gif)
 
-from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.phdcomics.com/comics.php?f=1618)
+from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.phdcomics.com/comics.php?f=1618) *(Nice choice of cartoon ;)*
 
 ---
 
@@ -30,20 +30,21 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 - use strong passwords
     - Good technique: Use the 1st letter of a passphrase: 
         - "Fab hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `fhxHK,ITs&(st)9hs`
-        - Use a creative, strange, unique, multi-language passphrase.
+        - Use a creative, strange, unique, multi-language passphrase. *( Be careful with multi-language - different keymaps and computer configs can make your password impossible to enter)*
     - Don't use [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords)
     - Test your passwords:
-        - Note: do NOT type any of your passwords into a random web page. 
-        - Load the page in a fresh browser, disconnect wifi, test your passwords, then close the browser
+        - Note: do NOT type any of your passwords into a random web page. *( Define random a bit more clearly - people rarely go to 'random' sites - perhaps say untrusted or sites they haven't visited before?)*
+        - Load the page in a fresh browser, disconnect wifi, test your passwords, then close the browser *(Seems a bit fast for a newbie - maybe break this down into a couple steps? Also, define 'test your passwords' before asking them to do it :) )*
         - [Password Tester](https://www.bennish.net/password-strength-checker/) based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with some links for background info. Click "Break it down!" to see the components.
         - [Password Tester](https://www.cygnius.net/snippets/passtest.html), also based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with a few examples.
+        - *( Any thoughts on last pass or other password managers? )*
     - Set your computer up so that the screen saver kicks in after 3 minutes. You'll have to type your password many times a day, and you'll get really fast, and won't ever forget it
 - Security questions: avoid, or give bogus random unguessable answers like `T$adf^VFBG(*&O(N%R^BHN*UOI` (Note: of course, this can complicate things when you DO forget your password.)
 - Multi-factor authentication
-    - using a phone (SMS, app), dongle, or some other item a user always has at hand 
+    - using a phone (SMS, app), dongle, or some other item a user always has at hand *( Link to some if you know of them - such as yubikey. Always helps to provide examples and guidance. Also give examples on the phone app )*
     - advantage: more secure
     - disadvantage: need device, and maybe phone reception 
-        - what if you travel and have a new SIM in your phone? (Note: that's potentially when the 2FA kicks in, because "you're in an unusual location")
+        - what if you travel and have a new SIM in your phone? (Note: that's potentially when the 2FA kicks in, because "you're in an unusual location") *( Suggest you put some answers here now you've scared the crap out of people ;) )*
         - what if you lose your phone?
 - Enable notifications of changes
     - Apple's iCloud notifies you when you change your password or amend personal information
@@ -56,7 +57,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 
 from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/936/)
 
-Note: the password tester linked above, indeed, estimates 
+Note: the password tester linked above, indeed, estimates *( Can you explain this a bit better? I'm not following... )*
 
 - `Tr0ub4dour&3` to be cracked in 22 hours (30 bits), and 
 - `correct horse battery staple` in centuries (63 bits), and 
@@ -70,19 +71,19 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### Suggested Tools: Password Managers
 
-- Password Managers allow you to use different (secure) passwords for different sites
+- Password Managers allow you to use different (secure) passwords for different sites  *( Ah it's down here! Maybe put a link to it from above? )*
 - Password Managers store these passwords securely
     - Storage locally (better security, less convenience)
     - Storage in the Cloud (easier sync, automatic backup, less secure)
 - Password Managers require one Master Password 
     - it better be good!
-    - you better don't forget it! (use regularly, maybe deposit one backup on paper in your mom's bank safety deposit box)
+    - you better don't forget it! (use regularly, maybe deposit one backup on paper in your mom's bank safety deposit box) *( Also don't use one you used elsehwere ever before... )*
 - Available on desktop and smart phones
 - Recommended:
     - If you use Apple products (computer and phone), and want a simple solution:
       - **iCloud Keychain**: Password manager. Safari only (OS X & iOS). Local plus iCloud. Commercial. Closed. Safe and easy if you use only Safari.  [Link](http://support.apple.com/en-us/HT5813)
     - If you want a free, open source solution:
-      - **Password Safe, pwSafe**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Open Source. Designed by Bruce Schneier.  [Link](http://pwsafe.org)      
+      - **Password Safe, pwSafe**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Open Source. Designed by Bruce Schneier.  [Link](http://pwsafe.org) *(WTF is Bruce Schneier? ;) If you're going to name drop, you'll need to give you readers some idea who he is...)*
       - **KeePass**: Password manager, most platforms. Local plus sync options (Dropbox, Google Drive). Open Source. Powerful, complicated. [Link](http://keepass.info)
     - If you're happy to pay for a commercial solution with support:  
       - **1Password**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Commercial, expensive (USD 50). Closed. [Link](https://agilebits.com/onepassword)
@@ -93,18 +94,18 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### First Steps: Disk Encryption
 
-- protects the content of your laptop 
+- protects the content of your laptop *( Might need a bit more of an introduction )*
     - when it's stolen
     - when it's in the hand of government/border control
 - without Disk Encryption, can just take out the harddrive from your laptop (or start it up in "Target Mode") and copy everything from it
-- when turned on initially, will run a few hours in the background to encrypt everything
+- when turned on initially, will run a few hours in the background to encrypt everything *( Why so long? )*
 
 ### Suggested Tools: Disk Encryption
 
 - Automatically enabled in iOS 8, and Android L. Can be set up for earlier Android versions (from HoneyComb onwards?)
 - Recommended:
   - **FileVault**: Disk Encryption, OS X. Set up in System Preferences -> Security & Privacy. [Link](http://support.apple.com/en-us/HT4790)
-  - Windows: ??
+  - Windows: ?? 
 - Careful:
   - **TrueCrypt** appears to have some issues, the developers don't recommend its use anymore
 - Also see [Disk Encryption on Prism Break](http://prism-break.org/en/all/#disk-encryption)
@@ -123,8 +124,8 @@ A password based on a long, creative passphrase might really be the state of the
     - Browse in Private mode ("porn mode")
     - Use different browsers for different tasks (private/job/sensitive)
     - Install some of the tools in the next section
-- If you ignore warnings about security certificates, MITM ("men in the middle") attackers can read all your traffic (incl. password)
-- Always use HTTPS, if possible, as it encrypts your traffic. Some browser extensions do this for you automatically
+- If you ignore warnings about security certificates, MITM ("men in the middle") attackers can read all your traffic (incl. password)  *( It's bad but not that bad - I'd tone this down a bit in case people think you're spreading FUD)*
+- Always use HTTPS, if possible, as it encrypts your traffic. Some browser extensions do this for you automatically *( what's HTTPS?)*
 - Some background:
     - ["Getting to know you"](http://www.economist.com/news/special-report/21615871-everything-people-do-online-avidly-followed-advertisers-and-third-party), The Economist, part of an insightful [Special Report: Advertising and Technology](http://www.economist.com/news/special-report/21615869-technology-radically-changing-advertising-business-profound-consequences).
     - ["Can't trust Uber"](http://www.nytimes.com/2014/12/08/opinion/we-cant-trust-uber.html?_r=0), in the NY Times
@@ -181,14 +182,14 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### First Steps: VPNs
 
-- "Virtual Private Network"
+- "Virtual Private Network"  *( This section needs some more links as to what a VPN is - a newbie isn't going to get it from this :)  )*
 - secures the connection ...
     - from your device all the way...
     - to a specific exit node "somewhere" (you can choose)
-- from the exit node, the traffic goes (normally) to its destination
+- from the exit node, the traffic goes (normally) to its destination  *(exit node?)*
 - protects from interception "nearby" (Internet Cafe, your ISP, local gov't)
 - allows to circumvent censorship, eg when traveling in China, Iran
-    - have to enable SSL for that (or SSH tunnel, possibly)
+    - have to enable SSL for that (or SSH tunnel, possibly) *( SSL? SSH tunnel? )*
 
 ### Suggested Tools: VPNs
 
@@ -214,11 +215,11 @@ A password based on a long, creative passphrase might really be the state of the
         - However, nobody knows what happens on the server itself. 
         - Your government could have a pipe to there, or 
         - the company itself could spy on it, analyse it, sell it.
-    - The most secure is end-to-end encryption, meaning only the two devices that are communicating know the keys, and NOBODY inbetwen can decrypt what is happening. Recommended.
+    - The most secure is end-to-end encryption, meaning only the two devices that are communicating know the keys, and NOBODY inbetween can decrypt what is happening. Recommended.
         - However, meta data (with whom do you chat how often how much) can still be seen with some of these.
 - MITM (man in the middle attack)
     - One weakness of end-to-end encryption is the [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack). 
-    - To circumvent that, the software shows you something representing the key used, such as a two-word phrase, or a square pixely picture. You should compare with the person that you're communicating with, on a second independent channel, to ensure that you're both talking to each other without anyone in the middle.
+    - To circumvent that, the software shows you something representing the key used, such as a two-word phrase, or a square pixely picture. You should compare with the person that you're communicating with, on a second independent channel, to ensure that you're both talking to each other without anyone in the middle. *(give examples of indepedent channel and define it :)  )*
 
 
 ### Suggested Tools: Secure Chat (Text)
@@ -248,7 +249,7 @@ A password based on a long, creative passphrase might really be the state of the
 
   - **Signal/Redphone**: Free, encrypted calls. EFF score 7/7 [Link](https://whispersystems.org/blog/signal/)
 
-- Careful, only partial encryption: Skype, Google Hangout (Voice/Video)
+- Careful, only partial encryption: Skype, Google Hangout (Voice/Video) *( Skype is also thoroughly penetrated - at least believed to be so - at this time )*
 - Not recommended: Normal phone calls
 
 - Also see [Prism Break on Video/Voice](http://prism-break.org/en/all/#video-voice)
@@ -266,7 +267,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### Advanced Steps: Secure Email
 
-- GPG allows secure sending of email including attachments
+- GPG allows secure sending of email including attachments *( GPG? You must define before you talk about it :)  )*
 - However, meta data is NOT encrypted/protected
     - sender, recipient
     - subject line
