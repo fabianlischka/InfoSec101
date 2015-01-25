@@ -9,29 +9,30 @@ title: Motivation & Examples
 
 Edward Snowden, Interview with Hubert Siebel (NDR/ARD), 2014-01-22. 
 
-Source: [Snowden's website](https://edwardsnowden.com/2014/01/27/video-ard-interview-with-edward-snowden/)
+Source: [Snowden's website](https://edwardsnowden.com/2014/01/27/video-ard-interview-with-edward-snowden/) **( Specifically the US government - or at least they're the only ones definitely caught so far)**
 
 ### What are the issues: Some Problems
 
-- Your IP ("Internet Protocol" address, such as 62.138.116.3) can identify you
+- Your IP ("Internet Protocol" address, such as 62.138.116.3) can identify you **(Good on the define, but you've just defined something they don't know as something else they don't know :) )**
 - Email is (essentially) like a postcard, not like a letter: Everyone can read your email
 - By default, most internet traffic is unencrypted, and can be read by your ISP, the guys in the Cafe next to you, and your favorite governments
 - Weak or shared passwords can be compromised
 - Phishing attacks induce you to reveal your password to fraudulent sites
-- MITM attacks (internet cafe)
+- MITM attacks (internet cafe)  **(Defined MITM and explain)**
+
+**( Some problems with the above section: It screams FUD to me. I agree all of these are theoretically possible, but you make it sound like everyone everywhere is watching all the time and that's not the case. I'd tone this down a little. The message should be clear but this sounds like scaremongering. If you said "everything you do on the Internet is the same as doing something in the middle of a public park", it gets the idea across, that anyone could potentially see - but without the connotation that there's a spy camera over your shoulder. The content is good, I don't want you to lose credibility and lose people because they think you're overreacting.)**
 
 ### Why should you care?
 
 1. Protect yourself, your information, your sources
-    - Your account could be hacked, and all your information deleted
-    - Your communication with sources could be monitored
+    - Your account could be hacked, and all your information deleted **(Likely?)**
+    - Your communication with sources could be monitored **(Likely?)**
 2. Learn about it, in case you really need it
     - When Greenwald was first contacted by Snowden, there was some delay because Greenwald did not have the required software and expertise
 3. Network effect: The more people use it, the more useful
     - For example, the "Signal" app allows you to make free, encrypted calls -- but only to other people that have it installed!
-4. Make it normal, rather than a "red flag"
+4. Make it normal, rather than a "red flag" 
     - The rumor is that the NSA records ALL encrypted communication it encounters
-
 
 ### What are the issues: Some Examples
 
