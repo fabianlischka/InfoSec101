@@ -13,41 +13,45 @@ Here you'll find some concrete steps (some simple, some a bit more involved) to 
 
 ## Suggested Tools: Selection & Criteria
 
-We recommend only a small subset of all available tools - the ones we consider "the best" for most users with
+We recommend only a small subset of all available tools - the ones we consider "the best" for most users with:
+
+**(For the following, maybe give an example, because I'm not too clear on what the distinctions are :) )**
 
 - average (or maybe slightly lower) technical IT background.
 - average (or slightly higher) need for privacy and security of information.
-  - Note that life-and-death situations require stronger solutions (and much more paranoia) than we can cover here!
+- Note that life-and-death situations require stronger solutions (and much more paranoia) than we can cover here!
 
 ### How to evaluate which cryptographic tools to use?
 
-- Fact: Cryptography is hard!
-    - Weakest Link property: Adversary only needs to break the weakest link in the chain
-    - Adversary is not playing fair: Timing attacks, Side channel attacks, Chosen Plaintext attacks, etc. 
-- Thus: Desireable Attributes of a tool:
+- Fact: Cryptography is hard! **(Why?)**
+    - Weakest Link property: Adversary only needs to break the weakest link in the chain **(Lots of big words ;) - What does any of it mean?)**
+    - Adversary is not playing fair: Timing attacks, Side channel attacks, Chosen Plaintext attacks, etc. **(Wow overload! All important, but you need to explain this if you're going to mention it. Golden rule: If you speak it, you must define it)**
+- Thus: Desireable Attributes of a tool: **(Only thus if they understand the previous items)**
     - Organizational properties
-        - Open Source
-        - Security Audit
-        - Clear threat model, clear crypto solutions
+        - Open Source **(Define)**
+        - Security Audit **(Define)**
+        - Clear threat model, clear crypto solutions **(Define)**
     - Crypthographic properties
-        - Established crypto algorithms
-        - End-to-end encryption
-        - Perfect forward secrecy
+        - Established crypto algorithms **(Define)**
+        - End-to-end encryption **(Define)**
+        - Perfect forward secrecy  **(Define)**
     - Price
-        - We give preference to free/open source tools,
-        - But we will list commercial solutions if they provide clear benefits (such as ease of use, better support, etc.)
-        - However, very expensive tools will be penalized.
+        - We give preference to free/open source tools, **(Why? Is free/open source better?)**
+        - But we will list commercial solutions if they provide clear benefits (such as ease of use, better support, etc.) **(Be careful here - although you're explicitly trying to show you're not biased, this statement suggests that actually you are giving preference to Open Source. That's cool - but you need to explain it)**
+        - However, very expensive tools will be penalized. **(Why? Expensive doesn't mean it won't do a good job - what if the best tool is expensive? Again, be careful with how you state these)**
         
-In summary, our list below includes tools that are not too hard to use, preferably open source, with good enough crypto, preferably cheap or free.
+In summary, our list below includes tools that are not too hard to use, preferably open source, with good enough crypto, preferably cheap or free. **(This sounds more like it :))**
 
 
 ### xkcd on: Security and the Weakest Link
 
 ![xkcd: Security](http://imgs.xkcd.com/comics/security.png)
 
-from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
+from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/) **(My favourite XKCD cartoon ever ^_^)**
 
 ---
+
+**( I will leave this section for my good friend Eelco - he is extremely strong in this area)**
 
 ## <a name="wtd-mac"></a> What to do: Mac
 
