@@ -147,15 +147,15 @@ A password based on a long, creative passphrase might really be the state of the
 ### Suggested Tools: Secure Browsing - Browser Addons
 
 - Recommended Tools:
-  - **Adblock**: Blocks ads when browsing. Chrome, Firefox, Opera, Safari. “Pay what you want”. [Link](https://getadblock.com)
-  - **Adblock Edge**: Blocks ads when browsing. Firefox. [Link](https://addons.mozilla.org/en-US/firefox/addon/adblock-edge/)
+  - **Adblock Plus**: Blocks ads when browsing. Android, Chrome, Firefox, IE, Opera, Safari. Lets “acceptable ads” through by default. [Link](https://adblockplus.org)
   - **AlwaysHTTPS**: Encrypts your browsing with many websites. Firefox, Chrome, Opera [Link](https://www.eff.org/https-everywhere)
   - **Ghostery**: Stops trackers when browsing. Uploads anonymized tracker data by default. Firefox, Chrome, Opera, Safari [Link](https://www.ghostery.com/en/)
   - **Privacy Badger**: Stops advertisers and trackers when browsing. Firefox, Chrome. From the EFF. [Link](https://www.eff.org/privacybadger)
     
 - Alternatives:
-  - **Adblock Plus**: Blocks ads when browsing. Android, Chrome, Firefox, IE, Opera, Safari. Lets “acceptable ads” through by default. [Link](https://adblockplus.org)
-  - **Disconnect**: Stops trackers when browsing. USD 50/a. Open Source. OS X, Win, Android, iOS [Link](https://disconnect.me)
+  - **Adblock**: Blocks ads when browsing. Chrome, Firefox, Opera, Safari. “Pay what you want”. [Link](https://getadblock.com)
+  - **Adblock Edge**: Blocks ads when browsing. Firefox. [Link](https://addons.mozilla.org/en-US/firefox/addon/adblock-edge/)
+
 
 - Note: On Android, some of these apps are banned from the Play Store, because they  interfere with Google's business model. [Source: Disconnect Blog](https://blog.disconnect.me/blog/google-just-banned-our-new-android-app-before-it-even-launched-another-example-of-why-privacy-friendly-alternatives-for-android-app-distribution-are-critically-important)
 - Also see [Browser Addons on Prism Break](http://prism-break.org/en/all/#web-browser-addons), and a [comparison](http://www.areweprivateyet.com)
@@ -164,7 +164,11 @@ A password based on a long, creative passphrase might really be the state of the
 
 - For further anonymity, use [TOR (The Onion Router)](https://www.torproject.org), a stand-alone application available for most platforms
 - TOR routes all your traffic through a few extra hops, encrypted, so that the website you are visiting does not know who it's talking to, and interceptors near you don't know what websites you're visiting
-- It would not be sensible to divulge private information (such as your real name or facebook logins or so) when using TOR
+- Note: the traffic from the final TOR node to your destination is not encrypted (unless you use HTTPS). The final TOR node might monitor it, and it might be run by three-letter-organisations.
+    - It would not be sensible to divulge private information when using TOR
+    - Don't log into any website (Facebook, etc.)
+    - Don't use your real name, or google yourself
+    - Don't open documents downloaded through Tor while online.
 - The [TOR download page](https://www.torproject.org/download/download-easy.html.en) lists several security precautions; read them.
 
 
@@ -192,9 +196,9 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### Suggested Tools: VPNs
 
-- many providers
-    - there is no free lunch: expect to pay for good service (about USD 5/month)
-    - **AirVPN**: VPN provider with strong committment to security, privacy. [Link](https://airvpn.org)
+- many providers, but there is no free lunch: expect to pay for good service (about USD 5/month). Some good providers:
+    - **AirVPN**: Excellent VPN, strong commitment to security & privacy. Run by activists in Italy. Three connections per account. Unix, OS X, Win, iOS, Android. [Link](https://airvpn.org)
+    - **ZenMate**: Browser add-on. Routes only browser through a VPN, NOT other apps (Mail, Messenger, etc.). Free. Chrome, FireFox, Opera. [Link](https://zenmate.com)
 - to test whether the VPN works correctly, visit [IPLeak](http://ipleak.net), for example, and see what it thinks your IP address and location are.
 
 ## <a name="steps-chat"></a> Chat and Voice Calls
@@ -286,6 +290,25 @@ A password based on a long, creative passphrase might really be the state of the
 
 
 ## Miscellanous
+
+### Phishing
+
+- ie Emails that pretend to be from an official source, ie a bank or so, and goad you into "logging in" with your real credentials on a fake website
+- Note:
+    - a link can have some legitimate text (http://www.mybank.com), but point somewhere else (http://phishingsite.xyz). One can see where a link leads to by 
+        - hovering over it (OS X)
+        - tap-and-holding a link (iOS)
+    - the server (whatever is before the first slash) must be read from right to left (so, this is not a good link: www.mybank.com.domain.bla.phishingsite.xyz/login.html)
+- Prevention:
+    - don't click on links in emails to "log in" somewhere
+    - check the exact name of the website, and the "lock" symbol
+
+
+### Malware
+
+- a Trojan Horse is malicious software packaged to look like something desirable, tricking the user into actively installing it.
+    - spammy websites claim that your computer is infected by a virus, and offer a free "virus scanner" for download. Actually, it is this "virus scanner" that is the malware.
+    - a popular early Android app was a free flashlight app. However, it uploaded all the user's contact data, location, etc. to the provider, who sold it.
 
 ### Multiple Accounts
 
