@@ -27,18 +27,22 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
     
 ### First Steps: Passwords
 
-- use strong passwords
+- Overall strategy:
+    - Use one strong master password, and a password manager
+- Strong passwords
     - Good technique: Use the 1st letter of a passphrase: 
-        - "Fab hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `fhxHK,ITs&(st)9hs`
-        - Use a creative, strange, unique, multi-language passphrase.
+        - "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
+        - Use a creative, weird, unique passphrase, possibly multi-language.
+        - (Keep in mind that you might encounter different keyboard layouts when using other computers, eg when traveling)
     - Don't use [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords)
-    - Test your passwords:
-        - Note: do NOT type any of your passwords into a random web page. 
-        - Load the page in a fresh browser, disconnect wifi, test your passwords, then close the browser
+    - Test your passwords
+        - Password "quality test" routines are available
+        - Password quality can be measured in "time it takes to crack" or in "bits of entropy" (the more the better)
+        - Note: do NOT type you passwords into some unknown webpage. Load the page in a fresh browser, disconnect internet/wifi, then enter your passwords to test, finally close the browser session before you go back online
         - [Password Tester](https://www.bennish.net/password-strength-checker/) based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with some links for background info. Click "Break it down!" to see the components.
         - [Password Tester](https://www.cygnius.net/snippets/passtest.html), also based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with a few examples.
     - Set your computer up so that the screen saver kicks in after 3 minutes. You'll have to type your password many times a day, and you'll get really fast, and won't ever forget it
-- Security questions: avoid, or give bogus random unguessable answers like `T$adf^VFBG(*&O(N%R^BHN*UOI` (Note: of course, this can complicate things when you DO forget your password.)
+- Security questions: avoid, or give bogus random unguessable answers like `T$adf^VFBG(*&O(N%R^BHN*UOI` (Needless to say, this can complicate things when you DO forget your password.)
 - Multi-factor authentication
     - using a phone (SMS, app), dongle, or some other item a user always has at hand 
     - advantage: more secure
@@ -60,7 +64,7 @@ Note: the password tester linked above, indeed, estimates
 
 - `Tr0ub4dour&3` to be cracked in 22 hours (30 bits), and 
 - `correct horse battery staple` in centuries (63 bits), and 
-- `fhxHK,ITs&(st)9hs` billions of centuries (over 100 bits). 
+- `WhxHK,ITs&(st)9hs` billions of centuries (over 100 bits). 
 
 A password based on a long, creative passphrase might really be the state of the art.
 
@@ -75,14 +79,14 @@ A password based on a long, creative passphrase might really be the state of the
     - Storage locally (better security, less convenience)
     - Storage in the Cloud (easier sync, automatic backup, less secure)
 - Password Managers require one Master Password 
-    - it better be good!
+    - it better be good! (ideally not used elsewhere before)
     - you better don't forget it! (use regularly, maybe deposit one backup on paper in your mom's bank safety deposit box)
 - Available on desktop and smart phones
 - Recommended:
     - If you use Apple products (computer and phone), and want a simple solution:
       - **iCloud Keychain**: Password manager. Safari only (OS X & iOS). Local plus iCloud. Commercial. Closed. Safe and easy if you use only Safari.  [Link](http://support.apple.com/en-us/HT5813)
     - If you want a free, open source solution:
-      - **Password Safe, pwSafe**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Open Source. Designed by Bruce Schneier.  [Link](http://pwsafe.org)      
+      - **Password Safe, pwSafe**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Open Source. Designed by security doyen Bruce Schneier.  [Link](http://pwsafe.org) 
       - **KeePass**: Password manager, most platforms. Local plus sync options (Dropbox, Google Drive). Open Source. Powerful, complicated. [Link](http://keepass.info)
     - If you're happy to pay for a commercial solution with support:  
       - **1Password**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Commercial, expensive (USD 50). Closed. [Link](https://agilebits.com/onepassword)
@@ -123,7 +127,7 @@ A password based on a long, creative passphrase might really be the state of the
     - Browse in Private mode ("porn mode")
     - Use different browsers for different tasks (private/job/sensitive)
     - Install some of the tools in the next section
-- If you ignore warnings about security certificates, MITM ("men in the middle") attackers can read all your traffic (incl. password)
+- If you ignore warnings about security certificates, MITM ("men in the middle") attackers could read all your traffic (incl. password)
 - Always use HTTPS, if possible, as it encrypts your traffic. Some browser extensions do this for you automatically
 - Some background:
     - ["Getting to know you"](http://www.economist.com/news/special-report/21615871-everything-people-do-online-avidly-followed-advertisers-and-third-party), The Economist, part of an insightful [Special Report: Advertising and Technology](http://www.economist.com/news/special-report/21615869-technology-radically-changing-advertising-business-profound-consequences).
@@ -218,7 +222,7 @@ A password based on a long, creative passphrase might really be the state of the
         - However, nobody knows what happens on the server itself. 
         - Your government could have a pipe to there, or 
         - the company itself could spy on it, analyse it, sell it.
-    - The most secure is end-to-end encryption, meaning only the two devices that are communicating know the keys, and NOBODY inbetwen can decrypt what is happening. Recommended.
+    - The most secure is end-to-end encryption, meaning only the two devices that are communicating know the keys, and NOBODY inbetween can decrypt what is happening. Recommended.
         - However, meta data (with whom do you chat how often how much) can still be seen with some of these.
 - MITM (man in the middle attack)
     - One weakness of end-to-end encryption is the [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack). 
@@ -242,7 +246,7 @@ A password based on a long, creative passphrase might really be the state of the
   - **Pidgin + OTR**: OTR chat for Windows, EFF score 7/7 [Link](https://otr.cypherpunks.ca)
 
 - Careful, only partial encryption: AIM, Blackberry Messenger, Facebook Chat, IRC, Line, Telegram non-secret and groups, WhatsApp, Yahoo Messenger
-- Not recommended at all: Firechat, Google Hangout, Google Talk Talk, ICQ, Kik, Kaoko, QQ, Snapchat,  Viber, WeChat, Whisper
+- Not recommended at all: Firechat, Google Hangout, Google Talk Talk, ICQ, Kik, Kaoko, QQ, Snapchat, Viber, WeChat, Whisper
 - Not recommended at all: SMS
 
 - Also see the [EFF ScoreCard](https://www.eff.org/secure-messaging-scorecard)
@@ -252,8 +256,8 @@ A password based on a long, creative passphrase might really be the state of the
 
   - **Signal/Redphone**: Free, encrypted calls. EFF score 7/7 [Link](https://whispersystems.org/blog/signal/)
 
-- Careful, only partial encryption: Skype, Google Hangout (Voice/Video)
-- Not recommended: Normal phone calls
+- Careful, only partial encryption: Google Hangout (Voice/Video)
+- Not recommended: Normal phone calls, Skype
 
 - Also see [Prism Break on Video/Voice](http://prism-break.org/en/all/#video-voice)
 
