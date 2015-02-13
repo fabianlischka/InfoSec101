@@ -29,12 +29,18 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 
 - Overall strategy:
     - Use one strong master password, and a password manager
-- Strong passwords
+- Weak passwords & common mistakes
+    - Don't use [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords), such as `password, letmein, secret`
+    - Don't use names of pets or significan others
+    - Don't use dictionary words
+    - Don't rely on simple tricks, they're all well known!
+        - appending numbers (`password123`) is not secure
+        - simple substitutions (`733t spe@k, Tr0ub4dour&3`) are not secure
+- Strong passwords & best practice
     - Good technique: Use the 1st letter of a passphrase: 
         - "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
         - Use a creative, weird, unique passphrase, possibly multi-language.
         - (Keep in mind that you might encounter different keyboard layouts when using other computers, eg when traveling)
-    - Don't use [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords)
     - Test your passwords
         - Password "quality test" routines are available
         - Password quality can be measured in "time it takes to crack" or in "bits of entropy" (the more the better)
