@@ -73,7 +73,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 
 ### What to do: Mac - If you have a Weekend
 
-- Enable FileVault (Disk Encryption), best overnight (System Preferences -> Security & Privacy -> FileVault)
+- Enable FileVault (Disk Encryption). It requires a system restart, then works in the background to encrypt your disk. (System Preferences -> Security & Privacy -> FileVault)
 - (in Safari -> Preferences -> Privacy, occasionally remove all website data. Note that you'll have to log in fresh to all websites, so only do this if you know all your passwords, or have a password manager)
 - Get started with a Password Manager
     - If you're only on Safari (Mac and iOS), Keychain is great
