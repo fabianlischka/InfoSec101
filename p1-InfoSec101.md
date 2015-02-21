@@ -31,22 +31,33 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
     - Use one strong master password, and a password manager
 - Weak passwords & common mistakes
     - Don't use [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords), such as `password, letmein, secret`
-    - Don't use names of pets or significan others
-    - Don't use dictionary words
+    - Don't use names of pets or significant others
+    - Don't use dictionary words, sports teams, ...
     - Don't rely on simple tricks, they're all well known!
         - appending numbers (`password123`) is not secure
         - simple substitutions (`733t spe@k, Tr0ub4dour&3`) are not secure
 - Strong passwords & best practice
-    - Good technique: Use the 1st letter of a passphrase: 
-        - "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
-        - Use a creative, weird, unique passphrase, possibly multi-language.
+    - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*): 
+        - *Example:* "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
+        - Use a creative, weird, unique passphrase, possibly multi-language. 
+        - Don't use a well known catch phrase, song lyrics, movie quote etc. Make up your own phrase!
+        - Should be a long phrase, resulting in at least 12 characters, including numbers, small/capital letters, symbols, etc. (beyond simple substitution)
         - (Keep in mind that you might encounter different keyboard layouts when using other computers, eg when traveling)
-    - Test your passwords
+    - Maybe: Test your passwords
         - Password "quality test" routines are available
-        - Password quality can be measured in "time it takes to crack" or in "bits of entropy" (the more the better)
-        - Note: do NOT type you passwords into some unknown webpage. Load the page in a fresh browser, disconnect internet/wifi, then enter your passwords to test, finally close the browser session before you go back online
-        - [Password Tester](https://www.bennish.net/password-strength-checker/) based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with some links for background info. Click "Break it down!" to see the components.
-        - [Password Tester](https://www.cygnius.net/snippets/passtest.html), also based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with a few examples.
+        - Password quality can be measured in 
+            - "time it takes to crack" or in 
+            - "bits of entropy", denoting essentially how many combinations one has to try systematically to come across it
+            - the more the better
+        - There are websites available allowing you to test the quality of your password
+            - **Important**: do *NOT* just type important passwords into a webpage (that you're not logging in to), they could be collecting passwords.
+            - If you want to use the password testers below:
+                1. Load the page in a fresh browser (Safari/Firefox/IE),
+                2. disconnect internet/wifi,
+                3. then enter your passwords to test,
+                4. finally *quit* the browser before you go back online
+            - [Password Tester](https://www.bennish.net/password-strength-checker/) based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with some links for background info. Click "Break it down!" to see the components.
+            - [Password Tester](https://www.cygnius.net/snippets/passtest.html), also based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with a few examples.
     - Set your computer up so that the screen saver kicks in after 3 minutes. You'll have to type your password many times a day, and you'll get really fast, and won't ever forget it
 - Security questions: avoid, or give bogus random unguessable answers like `T$adf^VFBG(*&O(N%R^BHN*UOI` (Needless to say, this can complicate things when you DO forget your password.)
 - Multi-factor authentication
@@ -240,7 +251,6 @@ A password based on a long, creative passphrase might really be the state of the
 (Note: The EFF score refers to the [EFF ScoreCard](https://www.eff.org/secure-messaging-scorecard) for secure messaging.)
 
 - Recommended
-  - **CryptoCat**: Anonymous chat. Just choose a topic, and tell your friends. End-to-end encrypted. Open source. EFF score 7/7. [Link](https://crypto.cat/)
   - **iMessage**: End-to-end encrypted. Closed source. Apple only. EFF score 5/7 [Link](https://www.apple.com/ios/messages/)
   - **Telegram**: End-to-end encrypted (“secret Chat” only!). Closed source. EFF score 5/7. Desktop versions available. [Link](https://telegram.org/)
   - **TextSecure**: End-to-end encrypted. Android, but iOS version on the way. Open source. EFF score 7/7. [Link](https://whispersystems.org/)
