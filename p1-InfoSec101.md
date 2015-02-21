@@ -356,5 +356,7 @@ A password based on a long, creative passphrase might really be the state of the
     - Your phone number, email can be googled: what to they reveal?
     - Reverse Image Search sites such as [TinEye](http://tineye.com) or [Google](http://www.google.com/insidesearch/features/images/searchbyimage.html) allow someone to see whether a picture appears elsewhere on the net, eg Facebook, LinkedIn, Twitter, or your employer's website
     - A picture contains embedded information ("[EXIF data](https://en.wikipedia.org/wiki/Exchangeable_image_file_format)") that frequently contains the time and location the picture was taken
+        - There are tools availble to remove that information, known as EXIF strippers or metadata scrubbers.
+        - Recommended (but maybe a bit complicated): ExifTool. Windows, OS X, UNIX. [Link](http://www.sno.phy.queensu.ca/~phil/exiftool/index.html)
     - As discussed, the IP address of your computer can lead to you, or your ISP.
 
