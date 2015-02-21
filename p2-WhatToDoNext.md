@@ -22,8 +22,13 @@ We recommend only a small subset of all available tools - the ones we consider "
 ### How to evaluate which cryptographic tools to use?
 
 - Fact: Cryptography is hard!
-    - Weakest Link property: Adversary only needs to break the weakest link in the chain
-    - Adversary is not playing fair: Timing attacks, Side channel attacks, Chosen Plaintext attacks, etc. 
+    - Weakest Link property:
+        - Adversary only needs to break the weakest link in the chain
+        - If you're careful 20 times, but careless once, you might already be screwed
+    - Adversary is not playing fair: 
+        - Key Loggers
+        - Timing attacks, Side channel attacks, Chosen Plaintext attacks, etc. 
+        - Rubber hose, Wrench (see xkcd comic below)
 - Thus: Desireable Attributes of a tool:
     - Organizational properties
         - Open Source
