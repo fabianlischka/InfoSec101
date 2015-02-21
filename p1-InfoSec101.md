@@ -326,7 +326,12 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### Malware
 
-- a Trojan Horse is malicious software packaged to look like something desirable, tricking the user into actively installing it.
+- Rule of thumb: if it's free, it's crap.
+- Don't install arbitrary "disk cleaners", "search bars", etc.
+- Don't install anything unless absolutely necessary, and only from a trusted source
+- Don't open untrusted attachments
+- Don't plug in untrusted USB sticks
+- Trojan Horse: malicious software packaged to look like something desirable, tricking the user into actively installing it.
     - spammy websites claim that your computer is infected by a virus, and offer a free "virus scanner" for download. Actually, it is this "virus scanner" that is the malware.
     - a popular early Android app was a free flashlight app. However, it uploaded all the user's contact data, location, etc. to the provider, who sold it.
 
