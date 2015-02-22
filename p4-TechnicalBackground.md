@@ -13,6 +13,26 @@ title: Technical Background
   - **Integrity:** Nobody has messed with your message. (*Signature*)
   - **Authentication:** The recipient is who you think they are. (*No MitM attack*)
 
+## Threat Modeling
+- What do I want to keep private?
+    - Messages, locations, identities, networks, etc.
+- Who wants to know? Who is the adversary?
+    - Story subject, governments, law enforcement, corporations, etc.
+- What can the adversary do?
+    - Technical
+        - Hacking, intercept communications, install malware, intall keylogger
+    - Legal
+        - Lawsuits, subpoenas, detention
+    - Social
+        - Phishing, “social engineering,” exploiting trust
+    - Operational
+        - The one time you didn’t use a secure channel
+        - The one person you shouldn’t have told
+    - Physical
+        - Theft, rubber hose, wrench
+- What happens if adversary succeeds?
+    - Story's blown, legal problems for a source, someone gets killed
+
 ## How the Internet works (briefly)
 
 - Computers on the internet are identified by their IP address (37.48.81.50)
@@ -25,6 +45,7 @@ title: Technical Background
     - to another network, ISP, server, ...
     - etc.
 - Basically, by default, in clear text: everyone on the way could read along
+
 
 ## Metadata
 
