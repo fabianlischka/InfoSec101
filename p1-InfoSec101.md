@@ -22,9 +22,9 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 
 ---
 
-   
+
 ## <a name="steps-passwords"></a> Passwords & Phishing
-    
+
 ### First Steps: Passwords
 
 - Overall strategy:
@@ -43,17 +43,20 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
         - appending numbers (`password123`) is not secure
         - simple substitutions (`733t spe@k, Tr0ub4dour&3`) are not secure
         - simple composition of common patterns is not secure (`ilovejesus123`)
+    - Some examples of bad passwords from the 2012 LinkedIn breach and the 2010 Gawker breach:
+![PopularPasswords](public/images/popular-passwords.jpg)
+
 - Strong passwords & best practice
-    - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*): 
+    - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*):
         - *Example:* "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
-        - Use a creative, weird, unique passphrase, possibly multi-language. 
+        - Use a creative, weird, unique passphrase, possibly multi-language.
         - Don't use a well known catch phrase, song lyrics, movie quote etc. Make up your own phrase!
         - Should be a long phrase, resulting in at least 12 characters, including numbers, small/capital letters, symbols, etc. (beyond simple substitution)
         - (Keep in mind that you might encounter different keyboard layouts when using other computers, eg when traveling)
     - Maybe: Test your passwords
         - Password "quality test" routines are available
-        - Password quality can be measured in 
-            - "time it takes to crack" or in 
+        - Password quality can be measured in
+            - "time it takes to crack" or in
             - "bits of entropy", denoting essentially how many combinations one has to try systematically to come across it
             - the more the better
         - There are websites available allowing you to test the quality of your password
@@ -69,15 +72,15 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 - Security questions: avoid, or give bogus random unguessable answers like `T$adf^VFBG(*&O(N%R^BHN*UOI` (Needless to say, this can complicate things when you DO forget your password.)
 - Multi-factor authentication
     - something you *know* plus something you *have*
-    - using a phone (SMS, app), dongle, or some other item a user always has at hand 
+    - using a phone (SMS, app), dongle, or some other item a user always has at hand
     - advantage: more secure
-    - disadvantage: need device, and maybe phone reception 
+    - disadvantage: need device, and maybe phone reception
         - what if you travel and have a new SIM in your phone? (Note: that's potentially when the 2FA kicks in, because "you're in an unusual location")
         - what if you lose your phone?
 - Enable notifications of changes
     - Apple's iCloud notifies you when you change your password or amend personal information
     - Facebook notifies you when you log in from an unknown device
-    
+
 ---
 #### xkcd on: Passwords
 
@@ -85,11 +88,11 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 
 from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/936/)
 
-Note: the password tester linked above, indeed, estimates 
+Note: the password tester linked above, indeed, estimates
 
-- `Tr0ub4dour&3` to be cracked in 22 hours (30 bits), and 
-- `correct horse battery staple` in centuries (63 bits), and 
-- `WhxHK,ITs&(st)9hs` billions of centuries (over 100 bits). 
+- `Tr0ub4dour&3` to be cracked in 22 hours (30 bits), and
+- `correct horse battery staple` in centuries (63 bits), and
+- `WhxHK,ITs&(st)9hs` billions of centuries (over 100 bits).
 
 A password based on a long, creative passphrase might really be the state of the art.
 
@@ -103,7 +106,7 @@ A password based on a long, creative passphrase might really be the state of the
 - Password Managers store these passwords securely
     - Storage locally (better security, less convenience)
     - Storage in the Cloud (easier sync, automatic backup, less secure)
-- Password Managers require one Master Password 
+- Password Managers require one Master Password
     - it better be good! (ideally not used elsewhere before)
     - you better don't forget it! (use regularly, maybe deposit one backup on paper in your mom's bank safety deposit box)
 - Available on desktop and smart phones
@@ -111,9 +114,9 @@ A password based on a long, creative passphrase might really be the state of the
     - If you use Apple products (computer and phone), and want a simple solution:
       - **iCloud Keychain**: Password manager. Safari only (OS X & iOS). Local plus iCloud. Commercial. Closed. Safe and easy if you use only Safari.  [Link](http://support.apple.com/en-us/HT5813)
     - If you want a free, open source solution:
-      - **Password Safe, pwSafe**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Open Source. Designed by security doyen Bruce Schneier.  [Link](http://pwsafe.org) 
+      - **Password Safe, pwSafe**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Open Source. Designed by security doyen Bruce Schneier.  [Link](http://pwsafe.org)
       - **KeePass**: Password manager, most platforms. Local plus sync options (Dropbox, Google Drive). Open Source. Powerful, complicated. [Link](http://keepass.info)
-    - If you're happy to pay for a commercial solution with support:  
+    - If you're happy to pay for a commercial solution with support:
       - **1Password**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Commercial, expensive (USD 50). Closed. [Link](https://agilebits.com/onepassword)
       - **LastPass**: Password manager, most platforms. Cloud only. Commercial, basic use free, 12 USD/a for smartphone use. Closed. [Link](https://lastpass.com)
 - Also see [Password managers on Prism Break](http://prism-break.org/en/all/#password-managers)
@@ -121,17 +124,17 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### First Steps: Avoid Phishing
 
-- Very common and surprisingly effective attack. 
+- Very common and surprisingly effective attack.
 - AP Twitter account hacked by phishing. [Source: BBC](http://www.bbc.co.uk/news/world-us-canada-21508660)
 ![AP Twitter White House](public/images/AP-Twitter-WhiteHouse.jpeg)
 
 - What is it?
-    - emails etc. that pretend to be from an official source, ie a bank or so, and 
+    - emails etc. that pretend to be from an official source, ie a bank or so, and
     - lure you to a malicious website, where either
         - you "log in" with your real credentials on a fake site or
         - are hit a "drive-by" attack by just viewing the page
 - Note:
-    - a link can have some legitimate text (http://www.mybank.com), but point somewhere else (http://phishingsite.xyz). One can see where a link leads to by 
+    - a link can have some legitimate text (http://www.mybank.com), but point somewhere else (http://phishingsite.xyz). One can see where a link leads to by
         - hovering over it (OS X)
         - tap-and-holding a link (iOS)
     - the server (whatever is before the first slash) must be read from right to left (so, this is not a good link: www.mybank.com.domain.bla.phishingsite.xyz/login.html)
@@ -160,7 +163,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### First Steps: Disk Encryption
 
-- protects the content of your laptop 
+- protects the content of your laptop
     - when it's stolen
     - when it's in the hand of government/border control
 - without Disk Encryption, can just take out the harddrive from your laptop (or start it up in "Target Mode") and copy everything from it
@@ -187,7 +190,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### First Steps: Browsing
 
-- Search engines and social networks collect a lot information about you (even while you visit other websites), and sell it. 
+- Search engines and social networks collect a lot information about you (even while you visit other websites), and sell it.
 - Facebook is notified whenever you visit one of the millions of sites that has a "Like" button. Similarly for Twitter, Google, etc.
 - For example, if you read an article in the NY Times about depression, or HIV treatment, or bankruptcy law, Facebook and Google will be notified that that is an interest of yours (and their Terms of Service will specify whether they're allowed to serve you related ads, save the information, or sell it - good luck finding out).
 - How unique is your browser setup? Can you be uniquely identified by your browser alons? Find out with [Panopticlick](https://panopticlick.eff.org) from the EFF.
@@ -203,11 +206,11 @@ A password based on a long, creative passphrase might really be the state of the
     - ["Getting to know you"](http://www.economist.com/news/special-report/21615871-everything-people-do-online-avidly-followed-advertisers-and-third-party), The Economist, part of an insightful [Special Report: Advertising and Technology](http://www.economist.com/news/special-report/21615869-technology-radically-changing-advertising-business-profound-consequences).
     - ["Can't trust Uber"](http://www.nytimes.com/2014/12/08/opinion/we-cant-trust-uber.html?_r=0), in the NY Times
     - ["DEFCON 19: Tracking the Trackers: How Our Browsing History Is Leaking into the Cloud"](https://www.youtube.com/watch?v=BK_E3Bjpe0E), Youtube
-    
-    
+
+
 ### Suggested Tools: Secure Browsing - Search Engines
 - Note: If you use DuckDuckGo, you can easily pull up other results:
-    - append "!s" to be redirected to StartPage's results 
+    - append "!s" to be redirected to StartPage's results
     - append "!g" to be redirected to Google's results (which will track you)
     - append "!v" to be redirected to Youtube (video search)
     - and [more](http://imlefthanded.com/my-favourite-duckduckgo-bangs/), [many more](https://duckduckgo.com/bang.html)
@@ -225,7 +228,7 @@ A password based on a long, creative passphrase might really be the state of the
   - **AlwaysHTTPS**: Encrypts your browsing with many websites. Firefox, Chrome, Opera [Link](https://www.eff.org/https-everywhere)
   - **Ghostery**: Stops trackers when browsing. Uploads anonymized tracker data by default. Firefox, Chrome, Opera, Safari [Link](https://www.ghostery.com/en/)
   - **Privacy Badger**: Stops advertisers and trackers when browsing. Firefox, Chrome. From the EFF. [Link](https://www.eff.org/privacybadger)
-    
+
 - Alternatives:
   - **Adblock**: Blocks ads when browsing. Chrome, Firefox, Opera, Safari. “Pay what you want”. [Link](https://getadblock.com)
   - **Adblock Edge**: Blocks ads when browsing. Firefox. [Link](https://addons.mozilla.org/en-US/firefox/addon/adblock-edge/)
@@ -252,7 +255,7 @@ A password based on a long, creative passphrase might really be the state of the
   - **OnionBrowser**: Anonymous browsing (TOR) for iOS. Open source [Link](https://mike.tig.as/onionbrowser/)
   - **OrBot**: Anonymous browsing (TOR) for Android. [Link](https://guardianproject.info/apps/orbot/)
   - **TorBrowser**: Anonymous browsing (TOR) for Linux, OS X, Windows. [Link](https://www.torproject.org)
-  
+
 - Also see [Web Browser on Prism Break](http://prism-break.org/en/all/#web-browsers)
 - Also see [Tor on riseup.net](https://help.riseup.net/en/security/network-security/tor)
 
@@ -326,19 +329,19 @@ A password based on a long, creative passphrase might really be the state of the
 - Fortunately, there are some decent and free alternatives out there!
 - Levels of security
     - Many apps don't encrypt content at all, or badly. Not recommended. Very dangerous, as your conversations could easily be intercepted or altered by:
-        - the café whose Wifi you are using, 
-        - your internet service provider, 
+        - the café whose Wifi you are using,
+        - your internet service provider,
         - your government,
         - the company/provider.
-    - Some apps encrypt the communication all the way to their server, and from there to the other device. Careful, only partial encryption! 
-        - This is fairly secure against random hackers, or the café whose Wifi you are usin. 
-        - However, nobody knows what happens on the server itself. 
-        - Your government could have a pipe to there, or 
+    - Some apps encrypt the communication all the way to their server, and from there to the other device. Careful, only partial encryption!
+        - This is fairly secure against random hackers, or the café whose Wifi you are usin.
+        - However, nobody knows what happens on the server itself.
+        - Your government could have a pipe to there, or
         - the company itself could spy on it, analyse it, sell it.
     - The most secure is end-to-end encryption, meaning only the two devices that are communicating know the keys, and NOBODY inbetween can decrypt what is happening. Recommended.
         - However, meta data (with whom do you chat how often how much) can still be seen with some of these.
 - MITM (man in the middle attack)
-    - One weakness of end-to-end encryption is the [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack). 
+    - One weakness of end-to-end encryption is the [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
     - To circumvent that, the software shows you something representing the key used, such as a two-word phrase, or a square pixely picture. You should compare with the person that you're communicating with, on a second independent channel, to ensure that you're both talking to each other without anyone in the middle.
 
 
@@ -404,7 +407,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### Multiple Accounts
 
-- consider having multiple separated accounts on your machine, for 
+- consider having multiple separated accounts on your machine, for
     - work
     - fun
     - private
@@ -421,5 +424,5 @@ A password based on a long, creative passphrase might really be the state of the
     - transmit part of the information in iMessage, part on Signal/Redphone, part on Telegram, part on Wickr, such that having any one part is pretty useless
     - use TOR over a VPN
     - etc.
-    
+
 
