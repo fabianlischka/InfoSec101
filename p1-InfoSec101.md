@@ -5,13 +5,13 @@ title: InfoSec101
 
 More secure...
 
-- [Passwords](#steps-passwords)
+- [Passwords & Phishing](#steps-passwords)
 - [Disk Encryption](#steps-diskencr)
 - [Browsing](#steps-browse)
 - [Virtual Private Networks](#steps-vpns)
+- [Email](#steps-email)
 - [Chat and Voice Calls](#steps-chat)
 - [Cloud Storage](#steps-cloud)
-- [Email](#steps-email)
 
 
 ### PHD comics on: Security in your neighbourhood coffee shop
@@ -23,19 +23,26 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 ---
 
    
-## <a name="steps-passwords"></a> Passwords
+## <a name="steps-passwords"></a> Passwords & Phishing
     
 ### First Steps: Passwords
 
 - Overall strategy:
     - Use one strong master password, and a password manager
 - Weak passwords & common mistakes
-    - Don't use [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords), such as `password, letmein, secret`
-    - Don't use names of pets or significant others
-    - Don't use dictionary words, sports teams, ...
+    - Avoid [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords), such as `password, letmein, secret`
+    - Avoid:
+        - names of pets or significant others
+        - sports teams
+        - swear words, sexual words (no need to list them, but no, `696969` is not secure)
+        - family-related or religious words (`love`, `jesus`, `angel`, `lord`)
+        - words related to the site (eg `job, career, link` for linkedin)
+        - generally, dictionary words, unless multiplie unusual ones
+        - simple patterns (`1234`, `qwerty`, `abcd`, `1qaz`)
     - Don't rely on simple tricks, they're all well known!
         - appending numbers (`password123`) is not secure
         - simple substitutions (`733t spe@k, Tr0ub4dour&3`) are not secure
+        - simple composition of common patterns is not secure (`ilovejesus123`)
 - Strong passwords & best practice
     - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*): 
         - *Example:* "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
@@ -61,6 +68,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
     - Set your computer up so that the screen saver kicks in after 3 minutes. You'll have to type your password many times a day, and you'll get really fast, and won't ever forget it
 - Security questions: avoid, or give bogus random unguessable answers like `T$adf^VFBG(*&O(N%R^BHN*UOI` (Needless to say, this can complicate things when you DO forget your password.)
 - Multi-factor authentication
+    - something you *know* plus something you *have*
     - using a phone (SMS, app), dongle, or some other item a user always has at hand 
     - advantage: more secure
     - disadvantage: need device, and maybe phone reception 
@@ -110,6 +118,44 @@ A password based on a long, creative passphrase might really be the state of the
       - **LastPass**: Password manager, most platforms. Cloud only. Commercial, basic use free, 12 USD/a for smartphone use. Closed. [Link](https://lastpass.com)
 - Also see [Password managers on Prism Break](http://prism-break.org/en/all/#password-managers)
 
+
+### First Steps: Avoid Phishing
+
+- Very common and surprisingly effective attack. 
+- AP Twitter account hacked by phishing. [Source: BBC](http://www.bbc.co.uk/news/world-us-canada-21508660)
+![AP Twitter White House](public/images/AP-Twitter-WhiteHouse.jpeg)
+
+- What is it?
+    - emails etc. that pretend to be from an official source, ie a bank or so, and 
+    - lure you to a malicious website, where either
+        - you "log in" with your real credentials on a fake site or
+        - are hit a "drive-by" attack by just viewing the page
+- Note:
+    - a link can have some legitimate text (http://www.mybank.com), but point somewhere else (http://phishingsite.xyz). One can see where a link leads to by 
+        - hovering over it (OS X)
+        - tap-and-holding a link (iOS)
+    - the server (whatever is before the first slash) must be read from right to left (so, this is not a good link: www.mybank.com.domain.bla.phishingsite.xyz/login.html)
+- Prevention:
+    - be suspicious of unexpected, somewhat generic emails
+    - read the link before you click (*actual* link, not displayed)
+    - don't click on links in emails to "log in" somewhere
+        - use your own bookmarks, or just type it in
+    - check the exact name of the website, and the "lock" symbol
+    - never provide your password to anyone, except the *actual* website it's for
+
+### Malware
+
+- Rule of thumb: if it's free, it's crap.
+- Don't install arbitrary "disk cleaners", "search bars", etc.
+- Don't install anything unless absolutely necessary, and only from a trusted source
+- Don't open untrusted attachments
+- Don't plug in untrusted USB sticks
+- Trojan Horse: malicious software packaged to look like something desirable, tricking the user into actively installing it.
+    - spammy websites claim that your computer is infected by a virus, and offer a free "virus scanner" for download. Actually, it is this "virus scanner" that is the malware.
+    - a popular early Android app was a free flashlight app. However, it uploaded all the user's contact data, location, etc. to the provider, who sold it.
+
+- Also see [Human Security on riseup.net](https://help.riseup.net/en/security/human-security)
+
 ## <a name="steps-diskencr"></a> Disk Encryption
 
 ### First Steps: Disk Encryption
@@ -118,7 +164,7 @@ A password based on a long, creative passphrase might really be the state of the
     - when it's stolen
     - when it's in the hand of government/border control
 - without Disk Encryption, can just take out the harddrive from your laptop (or start it up in "Target Mode") and copy everything from it
-- when turned on initially, will run a few hours in the background to encrypt everything
+- when turned on initially, will restart and run a few hours in the background to encrypt everything
 
 ### Suggested Tools: Disk Encryption
 
@@ -129,6 +175,13 @@ A password based on a long, creative passphrase might really be the state of the
 - Careful:
   - **TrueCrypt** appears to have some issues, the developers don't recommend its use anymore
 - Also see [Disk Encryption on Prism Break](http://prism-break.org/en/all/#disk-encryption)
+
+### Deleting Data
+
+- When data is deleted on a modern OS, it is just moved into the trash folder
+- When the trash folder is emptied, only the "directory link" to the data is deleted, thus rendering it invisible, and liable to be overwritten in the future when more space is required. The actual data is still there and can, for a while, be recovered with special software
+- Really sensitive data: Chose "Secure Erase", which will overwrite the deleted data several times with random bits, thus rendering it pretty illegible
+- Don't forget backups and cloud syncing!
 
 ## <a name="steps-browse"></a> Browsing
 
@@ -179,7 +232,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 
 - Note: On Android, some of these apps are banned from the Play Store, because they  interfere with Google's business model. [Source: Disconnect Blog](https://blog.disconnect.me/blog/google-just-banned-our-new-android-app-before-it-even-launched-another-example-of-why-privacy-friendly-alternatives-for-android-app-distribution-are-critically-important)
-- Also see [Browser Addons on Prism Break](http://prism-break.org/en/all/#web-browser-addons), and a [comparison](http://www.areweprivateyet.com)
+- Also see [Browser Addons on Prism Break](http://prism-break.org/en/all/#web-browser-addons), and a [comparison](http://www.areweprivateyet.com), and [Better Web Browsing on riseup.net](https://help.riseup.net/en/security/network-security/better-web-browsing)
 
 ### Advanced Steps: Browsing
 
@@ -201,6 +254,7 @@ A password based on a long, creative passphrase might really be the state of the
   - **TorBrowser**: Anonymous browsing (TOR) for Linux, OS X, Windows. [Link](https://www.torproject.org)
   
 - Also see [Web Browser on Prism Break](http://prism-break.org/en/all/#web-browsers)
+- Also see [Tor on riseup.net](https://help.riseup.net/en/security/network-security/tor)
 
 ## <a name="steps-vpns"></a> Virtual Private Networks
 
@@ -221,6 +275,48 @@ A password based on a long, creative passphrase might really be the state of the
     - **AirVPN**: Excellent VPN, strong commitment to security & privacy. Run by activists in Italy. Three connections per account. Unix, OS X, Win, iOS, Android. [Link](https://airvpn.org)
     - **ZenMate**: Browser add-on. Routes only browser through a VPN, NOT other apps (Mail, Messenger, etc.). Free. Chrome, FireFox, Opera. [Link](https://zenmate.com)
 - to test whether the VPN works correctly, visit [IPLeak](http://ipleak.net), for example, and see what it thinks your IP address and location are.
+
+## <a name="steps-email"></a> Email
+
+### Basic Steps: Secure Email
+
+- GPG allows secure sending of email including attachments
+- However, meta data is NOT encrypted/protected and can be intercepted/manipulated
+    - sender, recipient
+    - subject line
+    - length
+
+
+### Suggested Tools: Secure Email
+
+- The standard for asymmetric encryption is PGP/GPG
+- (PGP = "Pretty Good Privacy" is the original implementation, OpenPGP is the open internet standard, and GPG = "Gnu Privacy Guard" is an open source implementation. Bottom line: all the same)
+- For key management, consider [keybase.io](https://keybase.io)
+- Recommended:
+  - **GPG4Win**: GPG for Windows. [Link](http://www.gpg4win.org/)
+  - **GPGTools**: not free. GPG on OS X Mail. EFF score 5/7. [Link](https://gpgtools.org)
+  - **iPGMail**: not free. GPG for iOS Mail. Closed source. EFF score 4/7. [Link](https://ipgmail.com/)
+
+- Not recommended at all for sensitive information: Normal email
+- Also see [Email Encryption on Prism Break](https://prism-break.org/en/all/#email-encryption)
+- Also see [Encrypted Email on arsTechnica](http://arstechnica.com/security/2013/06/encrypted-e-mail-how-much-annoyance-will-you-tolerate-to-keep-the-nsa-away/)
+
+### PGP Best Practices
+
+- When you write an encrypted email, chose a subject that doesn't reveal any information ("cat pictures")
+- When generating keys, chose 4096 bits, RSA
+- Secure your private key with a strong passphrase
+- Set an expiry date in, say 2 years
+    - this allows you to retire the key automatically when you lose the private key
+    - you can always extend your key, or upload a new one
+- Avoid sending very similar messages with only small changes, re-using greeting and signature, etc.
+    - the Nazi's Enigma was broken faster because every message ended with "Heil Hitler"
+- Beware of drafts stored in clear text on the mail server.
+    - either enable "encrypt drafts", or go off-line while composing sensitive emails
+- Note: anyone can upload keys to keyservers, so you cannot trust that any key you download actually belongs to the individual listed in the key. You should therefore verify with the individual owner the full key fingerprint of their key. You should do this verification in real life or over the phone.
+
+- Also see [OpenGPG Best Practices on riseup.net](https://help.riseup.net/en/security/message-security/openpgp/best-practices)
+
 
 ## <a name="steps-chat"></a> Chat and Voice Calls
 
@@ -283,57 +379,28 @@ A password based on a long, creative passphrase might really be the state of the
 
 - Careful, only partial encryption: Dropbox, Google Drive, iCloud
 - Not recommended at all: 360 Cloud Disk, Baidu Cloud Disk, QQ Net Disk
+- Note: Whatever you encrupt yourself with PGP you can put on any cloud server, as it can't be decrypted without your private key
 
 - Also see [Prism Break on File Storage](http://prism-break.org/en/all/#file-storage-sync)
 
-## <a name="steps-email"></a> Email
-
-### Advanced Steps: Secure Email
-
-- GPG allows secure sending of email including attachments
-- However, meta data is NOT encrypted/protected
-    - sender, recipient
-    - subject line
-    - length
-
-
-### Suggested Tools: Secure Email
-
-- The standard for asymmetric encryption is PGP/GPG
-- (PGP = "Pretty Good Privacy" is the original implementation, OpenPGP is the open internet standard, and GPG = "Gnu Privacy Guard" is an open source implementation. Bottom line: all the same)
-- For key management, consider [keybase.io](https://keybase.io)
-- Recommended:
-  - **GPG4Win**: GPG for Windows. [Link](http://www.gpg4win.org/)
-  - **GPGTools**: not free. GPG on OS X Mail. EFF score 5/7. [Link](https://gpgtools.org)
-  - **iPGMail**: not free. GPG for iOS Mail. Closed source. EFF score 4/7. [Link](https://ipgmail.com/)
-- Not recommended at all for sensitive information: Normal email
 
 
 ## Miscellanous
 
-### Phishing
+### Information Leaks
 
-- ie Emails that pretend to be from an official source, ie a bank or so, and goad you into "logging in" with your real credentials on a fake website
-- Note:
-    - a link can have some legitimate text (http://www.mybank.com), but point somewhere else (http://phishingsite.xyz). One can see where a link leads to by 
-        - hovering over it (OS X)
-        - tap-and-holding a link (iOS)
-    - the server (whatever is before the first slash) must be read from right to left (so, this is not a good link: www.mybank.com.domain.bla.phishingsite.xyz/login.html)
-- Prevention:
-    - don't click on links in emails to "log in" somewhere
-    - check the exact name of the website, and the "lock" symbol
+- Your phone is a tracking device, effectively
+    - If your mobile phone is connected, your cell phone provider knows where it is (even if it's not a smart phone)
+    - If your mobile phone is a smart phone, your phone knows where it is (and can record/share it)
+    - If you're meeting an important source, consider leaving your phone at home
+- If you give someone information, you might reveal more than you thought:
+    - Your phone number, email can be googled: what to they reveal?
+    - Reverse Image Search sites such as [TinEye](http://tineye.com) or [Google](http://www.google.com/insidesearch/features/images/searchbyimage.html) allow someone to see whether a picture appears elsewhere on the net, eg Facebook, LinkedIn, Twitter, or your employer's website
+    - A picture contains embedded information ("[EXIF data](https://en.wikipedia.org/wiki/Exchangeable_image_file_format)") that frequently contains the time and location the picture was taken
+        - There are tools availble to remove that information, known as EXIF strippers or metadata scrubbers.
+        - Recommended (but maybe a bit complicated): ExifTool. Windows, OS X, UNIX. [Link](http://www.sno.phy.queensu.ca/~phil/exiftool/index.html)
+    - The IP address of your computer can lead to your ISP, and then to you.
 
-
-### Malware
-
-- Rule of thumb: if it's free, it's crap.
-- Don't install arbitrary "disk cleaners", "search bars", etc.
-- Don't install anything unless absolutely necessary, and only from a trusted source
-- Don't open untrusted attachments
-- Don't plug in untrusted USB sticks
-- Trojan Horse: malicious software packaged to look like something desirable, tricking the user into actively installing it.
-    - spammy websites claim that your computer is infected by a virus, and offer a free "virus scanner" for download. Actually, it is this "virus scanner" that is the malware.
-    - a popular early Android app was a free flashlight app. However, it uploaded all the user's contact data, location, etc. to the provider, who sold it.
 
 ### Multiple Accounts
 
@@ -355,13 +422,4 @@ A password based on a long, creative passphrase might really be the state of the
     - use TOR over a VPN
     - etc.
     
-### Information Leaks
-
-- If you give someone information, you might reveal more than you thought:
-    - Your phone number, email can be googled: what to they reveal?
-    - Reverse Image Search sites such as [TinEye](http://tineye.com) or [Google](http://www.google.com/insidesearch/features/images/searchbyimage.html) allow someone to see whether a picture appears elsewhere on the net, eg Facebook, LinkedIn, Twitter, or your employer's website
-    - A picture contains embedded information ("[EXIF data](https://en.wikipedia.org/wiki/Exchangeable_image_file_format)") that frequently contains the time and location the picture was taken
-        - There are tools availble to remove that information, known as EXIF strippers or metadata scrubbers.
-        - Recommended (but maybe a bit complicated): ExifTool. Windows, OS X, UNIX. [Link](http://www.sno.phy.queensu.ca/~phil/exiftool/index.html)
-    - As discussed, the IP address of your computer can lead to you, or your ISP.
 
