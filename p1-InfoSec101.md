@@ -235,17 +235,18 @@ A password based on a long, creative passphrase might really be the state of the
 - Note: On Android, some of these apps are banned from the Play Store, because they  interfere with Google's business model. [Source: Disconnect Blog](https://blog.disconnect.me/blog/google-just-banned-our-new-android-app-before-it-even-launched-another-example-of-why-privacy-friendly-alternatives-for-android-app-distribution-are-critically-important)
 - Also see [Browser Addons on Prism Break](http://prism-break.org/en/all/#web-browser-addons), and a [comparison](http://www.areweprivateyet.com), and [Better Web Browsing on riseup.net](https://help.riseup.net/en/security/network-security/better-web-browsing)
 
-### Advanced Steps: Browsing
+### Advanced Steps: Browsing with Tor
 
-- For further anonymity, use [TOR (The Onion Router)](https://www.torproject.org), a stand-alone application available for most platforms
-- TOR routes all your traffic through a few extra hops, encrypted, so that the website you are visiting does not know who it's talking to, and interceptors near you don't know what websites you're visiting
-- Note: the traffic from the final TOR node to your destination is not encrypted (unless you use HTTPS). The final TOR node might monitor it, and it might be run by three-letter-organisations.
-    - It would not be sensible to divulge private information when using TOR
+- For further anonymity, use [Tor (The Onion Router)](https://www.torproject.org), a stand-alone application available for most platforms
+- Tor routes all your traffic through a few extra hops, encrypted, so that the website you are visiting does not know who it's talking to, and interceptors near you don't know what websites you're visiting
+- Note: the traffic from the final Tor node to your destination is not encrypted (unless you use HTTPS). The final Tor node might monitor it, and it might be run by three-letter-organisations.
+    - It would not be sensible to divulge private information when using Tor
     - Don't log into any website (Facebook, etc.)
     - Don't use your real name, or google yourself
     - Don't open documents downloaded through Tor while online.
-- The [TOR download page](https://www.torproject.org/download/download-easy.html.en) lists several security precautions; read them.
-
+- The [Tor download page](https://www.torproject.org/download/download-easy.html.en) lists several security precautions; read them.
+- Domain names ending in [*.onion*](https://en.wikipedia.org/wiki/.onion) are only accessible with a Tor browser. 
+    - For example, the Tor site of DuckDuckGo is [3g2upl4pq6kufc4m.onion](3g2upl4pq6kufc4m.onion).
 
 ### Suggested Tools: Secure Browsing - TOR
 
@@ -373,6 +374,14 @@ A password based on a long, creative passphrase might really be the state of the
 - Not recommended: Normal phone calls, Skype
 
 - Also see [Prism Break on Video/Voice](http://prism-break.org/en/all/#video-voice)
+
+### Suggested Tools: Whistleblowing
+
+- Use [SecureDrop](https://en.wikipedia.org/wiki/SecureDrop) for confidential communication between journalist and sources.
+    - You can use it to contact news organizations that have stablished a secure drop instance using a pseudonym, and subsequently communicate with them.
+    - Your organization can set up an instance of the software on a server to allow anyone to contact you pseudonymously.
+    - **SecureDrop**: Online platform for secure communication between journalists and sources (whistleblowers). [Link](https://freedom.press/securedrop)
+- Example: [Contact *The Guardian*](https://securedrop.theguardian.com) at 33y6fjyhs3phzfjj.onion
 
 ## <a name="steps-cloud"></a> Cloud Storage
 
