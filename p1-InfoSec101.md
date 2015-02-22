@@ -26,7 +26,8 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 ### First Steps: Passwords
 
 - Overall strategy:
-    - Use one strong master password, and a password manager
+    - Use one or two strong master passwords, and a password manager
+    - Let the password manager create random passwords for all websites etc.
 - Weak passwords & common mistakes
     - Avoid [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords), such as `password, letmein, secret`
     - Avoid:
@@ -43,7 +44,6 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
         - simple composition of common patterns is not secure (`ilovejesus123`)
     - Some examples of bad passwords from the 2012 LinkedIn breach and the 2010 Gawker breach:
 ![PopularPasswords](../public/images/popular-passwords.jpg)
-
 - Strong passwords & best practice
     - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*):
         - *Example:* "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
@@ -51,6 +51,8 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
         - Don't use a well known catch phrase, song lyrics, movie quote etc. Make up your own phrase!
         - Should be a long phrase, resulting in at least 12 characters, including numbers, small/capital letters, symbols, etc. (beyond simple substitution)
         - (Keep in mind that you might encounter different keyboard layouts when using other computers, eg when traveling)
+    - Good technique 2: Use 4 or 5 *randomly* selected words from a large dictionary, maybe each truncated at 5 or 4 characters
+        - *Example:* "keelhaul", "cleistogamy", "evince", "vacuum" turns into `keel3clei6evin9vacu`
     - Maybe: Test your passwords
         - Password "quality test" routines are available
         - Password quality can be measured in
@@ -100,14 +102,14 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### Suggested Tools: Password Managers
 
-- Password Managers allow you to use different (secure) passwords for different sites
+- Purpose: Password Managers allow you to use different (secure) passwords for different sites
 - Password Managers store these passwords securely
     - Storage locally (better security, less convenience)
     - Storage in the Cloud (easier sync, automatic backup, less secure)
 - Password Managers require one Master Password
-    - it better be good! (ideally not used elsewhere before)
-    - you better don't forget it! (use regularly, maybe deposit one backup on paper in your mom's bank safety deposit box)
-- Available on desktop and smart phones
+    - It better be good! (ideally not used elsewhere before)
+    - You better don't forget it! (use regularly, maybe deposit one backup on paper in your mom's bank safety deposit box)
+- What: App or browser addin, available on computers and smart phones
 - Recommended:
     - If you use Apple products (computer and phone), and want a simple solution:
       - **iCloud Keychain**: Password manager. Safari only (OS X & iOS). Local plus iCloud. Commercial. Closed. Safe and easy if you use only Safari.  [Link](http://support.apple.com/en-us/HT5813)
@@ -117,6 +119,9 @@ A password based on a long, creative passphrase might really be the state of the
     - If you're happy to pay for a commercial solution with support:
       - **1Password**: Password manager, most platforms. Local plus sync options (iCloud, Dropbox). Commercial, expensive (USD 50). Closed. [Link](https://agilebits.com/onepassword)
       - **LastPass**: Password manager, most platforms. Cloud only. Commercial, basic use free, 12 USD/a for smartphone use. Closed. [Link](https://lastpass.com)
+- Disadvantages:
+    - Can be somewhat cumbersome, particularly sync between devices
+    - If the app or password store is compromised, all your paswords are exposed
 - Also see [Password managers on Prism Break](http://prism-break.org/en/all/#password-managers)
 
 
@@ -147,13 +152,13 @@ A password based on a long, creative passphrase might really be the state of the
 ### Malware
 
 - Rule of thumb: if it's free, it's crap.
+- Trojan Horse: malicious software packaged to look like something desirable, tricking the user into actively installing it.
+    - spammy websites claim that your computer is infected by a virus, and offer a free "virus scanner" for download. Actually, it is this "virus scanner" that is the malware.
+    - a popular early Android app was a free flashlight app. However, it uploaded all the user's contact data, location, etc. to the provider, who sold it.
 - Don't install arbitrary "disk cleaners", "search bars", etc.
 - Don't install anything unless absolutely necessary, and only from a trusted source
 - Don't open untrusted attachments
 - Don't plug in untrusted USB sticks
-- Trojan Horse: malicious software packaged to look like something desirable, tricking the user into actively installing it.
-    - spammy websites claim that your computer is infected by a virus, and offer a free "virus scanner" for download. Actually, it is this "virus scanner" that is the malware.
-    - a popular early Android app was a free flashlight app. However, it uploaded all the user's contact data, location, etc. to the provider, who sold it.
 
 - Also see [Human Security on riseup.net](https://help.riseup.net/en/security/human-security)
 
@@ -161,11 +166,14 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### First Steps: Disk Encryption
 
-- protects the content of your laptop
+- Purpose: Protects the content of your laptop
     - when it's stolen
     - when it's in the hand of government/border control
-- without Disk Encryption, can just take out the harddrive from your laptop (or start it up in "Target Mode") and copy everything from it
-- when turned on initially, will restart and run a few hours in the background to encrypt everything
+- What: App, or embedded in the operating system
+- How: Encrpyts your entire harddrive, and decrypts what's needed on the fly
+    - Without Disk Encryption, can just take out the harddrive from your laptop (or start it up in "Target Mode") and copy everything from it, without logging in
+    - When Disk Encryption turned on initially, will restart and run a few hours in the background to encrypt everything
+- Disadvantages: Might be ever so slightly slower on old hardware
 
 ### Suggested Tools: Disk Encryption
 
