@@ -25,9 +25,9 @@ We recommend only a small subset of all available tools - the ones we consider "
     - Weakest Link property:
         - Adversary only needs to break the weakest link in the chain
         - If you're careful 20 times, but careless once, you might already be screwed
-    - Adversary is not playing fair: 
+    - Adversary is not playing fair:
         - Key Loggers
-        - Timing attacks, Side channel attacks, Chosen Plaintext attacks, etc. 
+        - Timing attacks, Side channel attacks, Chosen Plaintext attacks, etc.
         - Rubber hose, Wrench (see xkcd comic below)
 - Thus: Desireable Attributes of a tool:
     - Organizational properties
@@ -42,7 +42,7 @@ We recommend only a small subset of all available tools - the ones we consider "
         - We give preference to free/open source tools,
         - But we will list commercial solutions if they provide clear benefits (such as ease of use, better support, etc.)
         - However, very expensive tools will be penalized.
-        
+
 In summary, our list below includes tools that are not too hard to use, preferably open source, with good enough crypto, preferably cheap or free.
 
 
@@ -85,7 +85,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
     - If you're happy to pay for a commercial solution, look at LastPass or 1Password
     - If you prefer a free open-source solution, get KeePass or PasswordSafe
 - Get started with GPG:
-    - download & install   
+    - download & install
     - **GPGTools**: not free. GPG on OS X Mail. EFF score 5/7. [Link](https://gpgtools.org)
     - generate your first key, upload the public part to keyservers
     - consider joining [keybase.io](https://keybase.io)
@@ -112,12 +112,12 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
     - If you're happy to pay for a commercial solution, look at LastPass or 1Password
     - If you prefer a free open-source solution, get KeePass or PasswordSafe
 - Get started with GPG:
-    - download & install   
-    - **GPG4Win**: GPG for Windows. [Link](http://www.gpg4win.org/)    
+    - download & install
+    - **GPG4Win**: GPG for Windows. [Link](http://www.gpg4win.org/)
     - generate your first key, upload the public part to keyservers
     - consider joining [keybase.io](https://keybase.io)
     - download other people's public keys, and send them your first encrypted message
-- Consider 
+- Consider
     - **Pidgin + OTR**: OTR chat for Windows, EFF score 7/7. [Link](https://otr.cypherpunks.ca)
 
 ## <a name="wtd-ios"></a> What to do: iOS
@@ -129,8 +129,8 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
     - Browsing apps: OnionBrowser (anonymous/private browsing), Ghostery (somewhat private browser)
     - Chat apps: Telegram, Wickr, (not free:) Threema
     - Voice call apps: Signal
-  
-  
+
+
 ### What to do: iOS - If you have a Weekend
 
 - Get started with a Password Manager
@@ -138,7 +138,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
     - If you're happy to pay for a commercial solution, look at LastPass or 1Password
     - If you prefer a free open-source solution, get KeePass or PasswordSafe
 - Get started with GPG:
-    - download & install   
+    - download & install
     - **iPGMail**: not free. GPG for iOS Mail. Closed source. EFF score 4/7. [Link](https://ipgmail.com/)
     - copy your private key from your desktop computer over to your iPhone, [see this guide.](https://ipgmail.com/guide/)
     - send yourself a message from the desktop and decrypt it on the iPhone, and vv
@@ -166,7 +166,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 * [Encryption Works](https://freedom.press//encryption-works). A guide for journalists on “How to Protect Your Privacy in the Age of NSA Surveillance”. Somewhat out-of-date.
 * [Journalist Security Guide](https://cpj.org/reports/2012/04/information-security.php). A guide on information security, part of a guide for (general) security for journalists by the *Committee to Protect Journalists*
 * [Planning Digital Security for your Story](http://www.scribd.com/doc/209968137/Threat-Modeling-Planning-Digital-Security-for-your-Story). A presentation by Jonathan Stray on information security for journalists
-* [Privacy 101](https://www.privacyinternational.org/resources/privacy-101). 
+* [Privacy 101](https://www.privacyinternational.org/resources/privacy-101).
 
 ### Commented list of tools
 
