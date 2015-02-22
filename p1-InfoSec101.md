@@ -3,8 +3,6 @@ layout: page
 title: InfoSec101
 ---
 
-More secure...
-
 - [Passwords & Phishing](#steps-passwords)
 - [Disk Encryption](#steps-diskencr)
 - [Browsing](#steps-browse)
@@ -44,7 +42,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
         - simple substitutions (`733t spe@k, Tr0ub4dour&3`) are not secure
         - simple composition of common patterns is not secure (`ilovejesus123`)
     - Some examples of bad passwords from the 2012 LinkedIn breach and the 2010 Gawker breach:
-![PopularPasswords](public/images/popular-passwords.jpg)
+![PopularPasswords](../public/images/popular-passwords.jpg)
 
 - Strong passwords & best practice
     - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*):
@@ -126,7 +124,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 - Very common and surprisingly effective attack.
 - AP Twitter account hacked by phishing. [Source: BBC](http://www.bbc.co.uk/news/world-us-canada-21508660)
-![AP Twitter White House](public/images/AP-Twitter-WhiteHouse.jpeg)
+![AP Twitter White House](../public/images/AP-Twitter-WhiteHouse.jpeg)
 
 - What is it?
     - emails etc. that pretend to be from an official source, ie a bank or so, and
