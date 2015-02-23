@@ -385,7 +385,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 - Recommended
   - **iMessage**: End-to-end encrypted. Closed source. Apple only. EFF score 5/7 [Link](https://www.apple.com/ios/messages/)
-  - **Telegram**: End-to-end encrypted (“secret Chat” only!). Closed source. EFF score 5/7. Desktop versions available. [Link](https://telegram.org/)
+  - **Telegram**: End-to-end encrypted (“secret Chat” only!). Open source. EFF score 5/7. Desktop versions available. [Link](https://telegram.org/)
   - **TextSecure**: End-to-end encrypted. Android, but iOS version on the way. Open source. EFF score 7/7. [Link](https://whispersystems.org/)
   - **Threema**: End-to-end encrypted. Closed source. EFF score 5/7 [Link](https://threema.ch/en)
 
