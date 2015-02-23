@@ -38,6 +38,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
         - words related to the site (eg `job, career, link` for linkedin)
         - generally, dictionary words, unless multiplie unusual ones
         - simple patterns (`1234`, `qwerty`, `abcd`, `1qaz`)
+        - post codes, birthdays, years, etc.
     - Don't rely on simple tricks, they're all well known!
         - appending numbers (`password123`) is not secure
         - simple substitutions (`733t spe@k, Tr0ub4dour&3, p@55word`) are not secure
@@ -45,12 +46,13 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
     - Some examples of bad passwords from the 2012 LinkedIn breach and the 2010 Gawker breach:
 ![PopularPasswords](../public/images/popular-passwords.jpg)
 - Strong passwords & best practice
-    - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*):
+    - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*). This is the [Schneier Scheme](https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html):
         - *Example:* "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
         - *Eample:* "When I was 18 I dated Miranda Kerr for atleast 2 weeks, no seriously" turns into `WIw18IdMKfa2wns`
         - Use a creative, weird, unique passphrase, possibly multi-language.
         - Don't use a well known catch phrase, song lyrics, movie quote etc. Make up your own phrase!
         - Should be a long phrase, resulting in at least 12 characters, including numbers, small/capital letters, symbols, etc. (beyond simple substitution)
+        - Check that the result does not accidentally contain existing words, acronyms, etc.
         - (Keep in mind that you might encounter different keyboard layouts when using other computers, eg when traveling)
     - Good technique 2: Use 4 or 5 *randomly* selected words from a large dictionary, maybe each truncated at 5 or 4 characters
         - *Example:* "keelhaul", "cleistogamy", "evince", "vacuum" turns into `keel3clei6evin9vacu`
@@ -453,5 +455,11 @@ A password based on a long, creative passphrase might really be the state of the
     - transmit part of the information in iMessage, part on Signal/Redphone, part on Telegram, part on Wickr, such that having any one part is pretty useless
     - use TOR over a VPN
     - etc.
+    
+### Advanced Steps
 
+- If you have highly sensitive information, you'll need to be more careful and systematic. Research:
+    - OpSec
+    - VMs (Virtual Machines)
+    - **Tails**: The amnesic incognito live system. Operating System on a USB stick. [Link](https://tails.boum.org)
 
