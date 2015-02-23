@@ -3,7 +3,11 @@ layout: page
 title: Introduction
 ---
 
-## Content
+## Presentation
+
+A presentation given to the Foreign Correspondents Clubs, Hong Kong, is available as [a PDF](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.pdf) or [Open Document Presentation (.odp)](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.odp).
+
+## Further Resources
 
 1. [InfoSec101](p1-InfoSec101). How can you keep your information private and secure? An introduction (covering more secure passwords, browsing, chatting, etc.), including a curated, commented list of recommended software. 
 
@@ -22,4 +26,4 @@ Thus:
 - They're not necessarily elaborate enough to be fully self-contained.
 - They're not meant to elucidate every aspect comprehensively and objectively, but to give some opionated advice on "the best" tool to use for users with
     - average (or maybe slightly lower) technical IT background, and
-    - average (or slightly higher) need for privacy and security of information.
+    - average (or somewhat higher) need for privacy and security of information.
