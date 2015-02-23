@@ -5,16 +5,16 @@ title: InfoSec101
 
 - [Passwords & Phishing](#steps-passwords)
 - [Disk Encryption](#steps-diskencr)
+- [Cloud Storage](#steps-cloud)
 - [Browsing](#steps-browse)
 - [Virtual Private Networks](#steps-vpns)
 - [Email](#steps-email)
 - [Chat and Voice Calls](#steps-chat)
-- [Cloud Storage](#steps-cloud)
 
 
 ### PHD comics on: Security in your neighbourhood coffee shop
 
-![PHD comics: Coffee Security](http://www.phdcomics.com/comics/archive/phd080913s.gif)
+![PHD comics: Coffee Security](../public/images/PhD-comics-1618-coffee-security.gif)
 
 from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.phdcomics.com/comics.php?f=1618)
 
@@ -40,13 +40,14 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
         - simple patterns (`1234`, `qwerty`, `abcd`, `1qaz`)
     - Don't rely on simple tricks, they're all well known!
         - appending numbers (`password123`) is not secure
-        - simple substitutions (`733t spe@k, Tr0ub4dour&3`) are not secure
+        - simple substitutions (`733t spe@k, Tr0ub4dour&3, p@55word`) are not secure
         - simple composition of common patterns is not secure (`ilovejesus123`)
     - Some examples of bad passwords from the 2012 LinkedIn breach and the 2010 Gawker breach:
 ![PopularPasswords](../public/images/popular-passwords.jpg)
 - Strong passwords & best practice
     - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*):
         - *Example:* "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
+        - *Eample:* "When I was 18 I dated Miranda Kerr for atleast 2 weeks, no seriously" turns into `WIw18IdMKfa2wns`
         - Use a creative, weird, unique passphrase, possibly multi-language.
         - Don't use a well known catch phrase, song lyrics, movie quote etc. Make up your own phrase!
         - Should be a long phrase, resulting in at least 12 characters, including numbers, small/capital letters, symbols, etc. (beyond simple substitution)
@@ -92,7 +93,8 @@ Note: the password tester linked above, indeed, estimates
 
 - `Tr0ub4dour&3` to be cracked in 22 hours (30 bits), and
 - `correct horse battery staple` in centuries (63 bits), and
-- `WhxHK,ITs&(st)9hs` billions of centuries (over 100 bits).
+- `WhxHK,ITs&(st)9hs` billions of centuries (over 100 bits), and
+- `keel3clei6evin9vacu` in centuries (73 bits).
 
 A password based on a long, creative passphrase might really be the state of the art.
 
@@ -179,7 +181,7 @@ A password based on a long, creative passphrase might really be the state of the
 
 - Automatically enabled in iOS 8, and Android L. Can be set up for earlier Android versions (from HoneyComb onwards?)
 - Recommended:
-  - **FileVault**: Disk Encryption, OS X. Set up in System Preferences -> Security & Privacy. [Link](http://support.apple.com/en-us/HT4790)
+  - **FileVault**: Disk Encryption, OS X. Set up in System Preferences -> Security & Privacy. Requires restart. [Link](http://support.apple.com/en-us/HT4790)
   - Windows: ??
 - Careful:
   - **TrueCrypt** appears to have some issues, the developers don't recommend its use anymore
@@ -192,6 +194,23 @@ A password based on a long, creative passphrase might really be the state of the
 - Really sensitive data: Chose "Secure Erase", which will overwrite the deleted data several times with random bits, thus rendering it pretty illegible
 - Don't forget backups and cloud syncing!
 
+## <a name="steps-cloud"></a> Cloud Storage
+
+### First Steps: Cloud Storage
+
+- Be aware of what is in the cloud
+- iOS/OS X keep your contacts, calendars, photos in iCloud
+- The iCloud celebrity photo hack was most likely a mix of bad passwords and social engineering
+
+### Suggested Tools: Cloud Storage
+
+- Encrypted, but experimental: TorrentSync
+- Careful, only partial encryption: Dropbox, Google Drive, iCloud
+- Not recommended at all: 360 Cloud Disk, Baidu Cloud Disk, QQ Net Disk
+- Note: Whatever you encrypt yourself with PGP you can put on any cloud server, as it can't be decrypted without your private key
+
+- Also see [Prism Break on File Storage](http://prism-break.org/en/all/#file-storage-sync)
+
 ## <a name="steps-browse"></a> Browsing
 
 ### First Steps: Browsing
@@ -199,7 +218,7 @@ A password based on a long, creative passphrase might really be the state of the
 - Search engines and social networks collect a lot information about you (even while you visit other websites), and sell it.
 - Facebook is notified whenever you visit one of the millions of sites that has a "Like" button. Similarly for Twitter, Google, etc.
 - For example, if you read an article in the NY Times about depression, or HIV treatment, or bankruptcy law, Facebook and Google will be notified that that is an interest of yours (and their Terms of Service will specify whether they're allowed to serve you related ads, save the information, or sell it - good luck finding out).
-- How unique is your browser setup? Can you be uniquely identified by your browser alons? Find out with [Panopticlick](https://panopticlick.eff.org) from the EFF.
+- How unique is your browser setup? Can you be uniquely identified by your browser alone? Find out with [Panopticlick](https://panopticlick.eff.org) from the EFF.
 - From your IP address, your approximate location can be determined. See for example [IPLeak](http://ipleak.net).
 - A few steps you can take:
     - Regularly delete all cookies/history
@@ -215,15 +234,15 @@ A password based on a long, creative passphrase might really be the state of the
 
 
 ### Suggested Tools: Secure Browsing - Search Engines
+- Recommended Search Engines:
+  - **DuckDuckGo**: Anonymous, unlogged web search. Can be set as default in many browsers, including Safari. [Link](https://duckduckgo.com)
+  - **Ixquick**: Anonymous, unlogged web search, using non-Google sources. [Link](https://www.ixquick.com)
+  - **StartPage**: Anonymous, unlogged web search, using Google as the source. [Link](https://startpage.com)
 - Note: If you use DuckDuckGo, you can easily pull up other results:
     - append "!s" to be redirected to StartPage's results
     - append "!g" to be redirected to Google's results (which will track you)
     - append "!v" to be redirected to Youtube (video search)
     - and [more](http://imlefthanded.com/my-favourite-duckduckgo-bangs/), [many more](https://duckduckgo.com/bang.html)
-- Recommended Search Engines:
-  - **DuckDuckGo**: Anonymous, unlogged web search. Can be set as default in many browsers, including Safari. [Link](https://duckduckgo.com)
-  - **Ixquick**: Anonymous, unlogged web search, using non-Google sources. [Link](https://www.ixquick.com)
-  - **StartPage**: Anonymous, unlogged web search, using Google as the source. [Link](https://startpage.com)
 - Not recommended: Bing, Google, Yahoo
 - Also see [Web Search on Prism Break](http://prism-break.org/en/all/#web-search)
 
@@ -245,9 +264,9 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### Advanced Steps: Browsing with Tor
 
-- For further anonymity, use [Tor (The Onion Router)](https://www.torproject.org), a stand-alone application available for most platforms
+- For further anonymity, use [Tor (The Onion Router)](https://www.torproject.org), a stand-alone application available for most platforms, based on Firefox
 - Tor routes all your traffic through a few extra hops, encrypted, so that the website you are visiting does not know who it's talking to, and interceptors near you don't know what websites you're visiting
-- Note: the traffic from the final Tor node to your destination is not encrypted (unless you use HTTPS). The final Tor node might monitor it, and it might be run by three-letter-organisations.
+- Note: the traffic from the final Tor node to your destination is not encrypted (unless you use HTTPS). The final Tor node might monitor it, and it might be run by a WFO (*well funded organization*).
     - It would not be sensible to divulge private information when using Tor
     - Don't log into any website (Facebook, etc.)
     - Don't use your real name, or google yourself
@@ -255,7 +274,10 @@ A password based on a long, creative passphrase might really be the state of the
 - The [Tor download page](https://www.torproject.org/download/download-easy.html.en) lists several security precautions; read them.
 - Domain names ending in [*.onion*](https://en.wikipedia.org/wiki/.onion) are only accessible with a Tor browser. 
     - For example, the Tor site of DuckDuckGo is [3g2upl4pq6kufc4m.onion](3g2upl4pq6kufc4m.onion).
-
+- Disadvantages:
+    - Rather slow
+    - final hop in the clear
+    
 ### Suggested Tools: Secure Browsing - TOR
 
 - Recommended Tools:
@@ -290,23 +312,26 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### Basic Steps: Secure Email
 
-- GPG allows secure sending of email including attachments
-- However, meta data is NOT encrypted/protected and can be intercepted/manipulated
+- Basic Idea: 
+    - Encrypt your message including attachments into some blob (the *ciphertext*)
+    - Send that blob via email
+- Note: Meta data is NOT encrypted/protected and can be intercepted/manipulated
     - sender, recipient
     - subject line
     - length
-
+    - time and frequency of mails
 
 ### Suggested Tools: Secure Email
 
 - The standard for asymmetric encryption is PGP/GPG
 - (PGP = "Pretty Good Privacy" is the original implementation, OpenPGP is the open internet standard, and GPG = "Gnu Privacy Guard" is an open source implementation. Bottom line: all the same)
+- Purpose: PGP/GPG takes arbitrary text and encrypts it
+- What: PGP/GPG is basically a command line tool, but various apps and utilities exist for computers and smartphones, including ones that tie into email programs directly.
 - For key management, consider [keybase.io](https://keybase.io)
 - Recommended:
   - **GPG4Win**: GPG for Windows. [Link](http://www.gpg4win.org/)
-  - **GPGTools**: not free. GPG on OS X Mail. EFF score 5/7. [Link](https://gpgtools.org)
+  - **GPGTools**: not free anymore. GPG on OS X Mail. EFF score 5/7. [Link](https://gpgtools.org)
   - **iPGMail**: not free. GPG for iOS Mail. Closed source. EFF score 4/7. [Link](https://ipgmail.com/)
-
 - Not recommended at all for sensitive information: Normal email
 - Also see [Email Encryption on Prism Break](https://prism-break.org/en/all/#email-encryption)
 - Also see [Encrypted Email on arsTechnica](http://arstechnica.com/security/2013/06/encrypted-e-mail-how-much-annoyance-will-you-tolerate-to-keep-the-nsa-away/)
@@ -390,17 +415,6 @@ A password based on a long, creative passphrase might really be the state of the
     - Your organization can set up an instance of the software on a server to allow anyone to contact you pseudonymously.
     - **SecureDrop**: Online platform for secure communication between journalists and sources (whistleblowers). [Link](https://freedom.press/securedrop)
 - Example: [Contact *The Guardian*](https://securedrop.theguardian.com) at 33y6fjyhs3phzfjj.onion
-
-## <a name="steps-cloud"></a> Cloud Storage
-
-### Suggested Tools: Cloud Storage
-
-- Careful, only partial encryption: Dropbox, Google Drive, iCloud
-- Not recommended at all: 360 Cloud Disk, Baidu Cloud Disk, QQ Net Disk
-- Note: Whatever you encrupt yourself with PGP you can put on any cloud server, as it can't be decrypted without your private key
-
-- Also see [Prism Break on File Storage](http://prism-break.org/en/all/#file-storage-sync)
-
 
 
 ## Miscellanous
