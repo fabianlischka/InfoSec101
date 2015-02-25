@@ -168,7 +168,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 * [Planning Digital Security for your Story](http://www.scribd.com/doc/209968137/Threat-Modeling-Planning-Digital-Security-for-your-Story). A presentation by Jonathan Stray on information security for journalists
 * [Privacy 101](https://www.privacyinternational.org/resources/privacy-101).
 
-### Commented list of tools
+### Commented lists of tools
 
 * [EFF Secure Messaging Scorecard](https://www.eff.org/secure-messaging-scorecard). A useful list and brief evaluation of chat apps, for all platforms.
 * [Guardian Project](https://guardianproject.info/howto/). Tutorials and tools for a few privacy tools.
