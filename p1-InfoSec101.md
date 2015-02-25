@@ -23,10 +23,37 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 
 ## <a name="steps-passwords"></a> Passwords & Phishing
 
+### Passwords: The problem
+
+- How do hackers attack passwords? Three ways:
+    1. Try and error, using common passwors (*dictionary attack*), and some rules (append `123`, etc.)
+        - Computers can try **lots** of combinations in a short time
+        - The "dictionaries" used are comprehensive and smartly compiled
+    2. Hack into a site, and get the usernames and passwords (*Database breach*)
+        - Properly implemented websites store passwords in a way that makes this nearly impossible
+        - Many sites are not properly implemented though...
+        - Now, use the passwords learned from this breach, and try them on other sites (email accounts, bank accounts, twitter, ...)
+    3. Social engineering (*"I lost my password"*)
+        - Hackers just click on "I lost my password", then answer the security questions (with information gleaned from public sources, or via "social engineering")
+            - Name of my primary school
+            - Mother's maiden name
+            - Birthday
+        - Hackers call, and pretend to be the owner of the account, ask for password reset
+- How can we protect against this? Three counter measures:
+    1. Use good passwords, hard to guess
+    2. Don't re-use passwords across sites
+    3. Disable "Security Questions" (eg give bogus answers)
+- Problem: These counter measures conflict!
+    - Passwords that are hard to guess are hard to remember... 
+    - Now have a different one for every site, and you have to remember many! 
+    - And, without security questions, you cannot recover it when you (inevitably) forget one!
+- Solution: Password manager
+    
+    
 ### First Steps: Passwords
 
 - Overall strategy:
-    - Use one or two strong master passwords, and a password manager
+    - Use one or two strong *master passwords*, and a password manager
     - Let the password manager create random passwords for all websites etc.
 - Weak passwords & common mistakes
     - Avoid [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords), such as `password, letmein, secret`
@@ -72,7 +99,14 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
             - [Password Tester](https://www.bennish.net/password-strength-checker/) based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with some links for background info. Click "Break it down!" to see the components.
             - [Password Tester](https://www.cygnius.net/snippets/passtest.html), also based on [zxcvbn](https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/), with a few examples.
     - Set your computer up so that the screen saver kicks in after 3 minutes. You'll have to type your password many times a day, and you'll get really fast, and won't ever forget it
-- Security questions: avoid, or give bogus random unguessable answers like `T$adf^VFBG(*&O(N%R^BHN*UOI` (Needless to say, this can complicate things when you DO forget your password.)
+- Security questions: very problematic
+    - One of the most common ways that accounts are compromised (particularly for "celebrities", for whom a lot of information is publically available)
+    - Thus:
+        - avoid, or 
+        - give bogus answers
+            - Like `T$adf^VFBG(*&O(N%R^BHN*UOI`
+            - Needless to say, this can complicate things when you DO forget your password.
+            - However, you can store these bogus answers in your password manager!
 - Multi-factor authentication
     - something you *know* plus something you *have*
     - using a phone (SMS, app), dongle, or some other item a user always has at hand
@@ -183,8 +217,8 @@ A password based on a long, creative passphrase might really be the state of the
 
 - Automatically enabled in iOS 8, and Android L. Can be set up for earlier Android versions (from HoneyComb onwards?)
 - Recommended:
-  - **FileVault**: Disk Encryption, OS X. Set up in System Preferences -> Security & Privacy. Requires restart. [Link](http://support.apple.com/en-us/HT4790)
-  - Windows: ??
+  - **FileVault**: Disk encryption. OS X. Enable in System Preferences -> Security & Privacy. Requires restart. [Link](http://support.apple.com/en-us/HT4790)
+  - **BitLocker**: Disk encryption. Windows. [Link](http://windows.microsoft.com/en-US/windows7/products/features/bitlocker) 
 - Careful:
   - **TrueCrypt** appears to have some issues, the developers don't recommend its use anymore
 - Also see [Disk Encryption on Prism Break](http://prism-break.org/en/all/#disk-encryption)
@@ -192,9 +226,10 @@ A password based on a long, creative passphrase might really be the state of the
 ### Deleting Data
 
 - When data is deleted on a modern OS, it is just moved into the trash folder
-- When the trash folder is emptied, only the "directory link" to the data is deleted, thus rendering it invisible, and liable to be overwritten in the future when more space is required. The actual data is still there and can, for a while, be recovered with special software
+- When the trash folder is emptied, only the "directory link" to the data is deleted, thus rendering it invisible, and liable to be overwritten in the future when more space is required. The actual data is still there and can, for a while, be recovered with special software (or even "forensic" hardware that carefully examines the magnetic platter and figures out whether a 0 or 1 was stored there!)
 - Really sensitive data: Chose "Secure Erase", which will overwrite the deleted data several times with random bits, thus rendering it pretty illegible
-- Don't forget backups and cloud syncing!
+- Don't forget backups and cloud syncing! Data might still lurk there.
+- Note: if you use disk encryption, this is not a problem (even if the bits are recovered, they make no sense without the password)
 
 ## <a name="steps-cloud"></a> Cloud Storage
 
