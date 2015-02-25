@@ -3,11 +3,20 @@ layout: page
 title: Introduction
 ---
 
-## Presentation
+## Overview
 
-A presentation given to the Foreign Correspondents Clubs, Hong Kong, is available as [a PDF](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.pdf) or [Open Document Presentation (.odp)](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.odp).
+An introduction on basic information security practices for professionals dealing with sensitive information, such as journalists, doctors, lawyers, counselors, political activists, and so forth. Contents:
 
-## Further Resources
+- A presentation, suitable for a one hour talk.
+- Further resources on this website with much more detail
+
+### Presentation
+This short presentation was given to the Foreign Correspondents Club in HK in February 2015. Available as
+
+- [a PDF](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.pdf) or 
+- the source in [Open Document Presentation (.odp)] format (public/presentations/InfoSec101-Presentation-FCC-2015-02-26.odp).
+
+### Further Resources
 
 1. [InfoSec101](p1-InfoSec101). How can you keep your information private and secure? An introduction (covering more secure passwords, browsing, chatting, etc.), including a curated, commented list of recommended software. 
 
@@ -19,7 +28,7 @@ A presentation given to the Foreign Correspondents Clubs, Hong Kong, is availabl
 
 
 ### Meta-Notes
-These documents are intended as a supplement to an introductory talk on Information Security for (non-IT) professionals, such as journalists, doctors, lawyers, counselors, political activists, etc.
+These documents are intended as a supplement to an introductory talk on Information Security for (non-IT) professionals.
 
 Thus: 
 
