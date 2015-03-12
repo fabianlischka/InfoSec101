@@ -126,8 +126,8 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 - Switch your search engine to DuckDuckGo (Settings -> Safari -> Search Engine)
 - Use iMessage and Facetime, both end-to-end encrypted
 - Download (from the App Store)
-    - Browsing apps: OnionBrowser (anonymous/private browsing), Ghostery (somewhat private browser)
-    - Chat apps: Telegram, Wickr, (not free:) Threema
+    - Browsing apps: OnionBrowser (anonymous/private browsing)
+    - Chat apps: Signal, Telegram
     - Voice call apps: Signal
 
 
@@ -136,13 +136,12 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 - Get started with a Password Manager
     - If you're only on Safari (Mac and iOS), Keychain is great
     - If you're happy to pay for a commercial solution, look at LastPass or 1Password
-    - If you prefer a free open-source solution, get KeePass or PasswordSafe
+    - If you prefer a free open-source solution, get pwSafe
 - Get started with GPG:
     - download & install
     - **iPGMail**: not free. GPG for iOS Mail. Closed source. EFF score 4/7. [Link](https://ipgmail.com/)
     - copy your private key from your desktop computer over to your iPhone, [see this guide.](https://ipgmail.com/guide/)
     - send yourself a message from the desktop and decrypt it on the iPhone, and vv
-- maybe install CryptoCat, maybe ChatSecure (OTR messaging) for more chat options
 
 
 ## <a name="wtd-android"></a> What to do: Android
