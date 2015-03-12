@@ -5,7 +5,7 @@ title: Contact & Feedback
 
 ## Contact
 
-Feel free to contact us <infosec101@fabian-lischka.de>. 
+Feel free to contact me at <infosec101@fabian-lischka.de>. 
 
 ## Suggestions
 
