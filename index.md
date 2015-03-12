@@ -5,16 +5,11 @@ title: Introduction
 
 ## Overview
 
-An introduction on basic information security practices for professionals dealing with sensitive information, such as journalists, doctors, lawyers, counselors, political activists, and so forth. Contents:
+An introduction on basic information security practices ("[InfoSec101](p1-InfoSec101)") for professionals dealing with sensitive information, such as journalists, doctors, lawyers, counselors, political activists, and so forth. Contents:
 
-- A presentation, suitable for a one hour talk.
-- Further resources on this website with much more detail
 
 ### Presentation
-This short presentation was given to the Foreign Correspondents Club in HK in February 2015. Available as
-
-- [a PDF](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.pdf) or 
-- the source in [Open Document Presentation (.odp)] format (public/presentations/InfoSec101-Presentation-FCC-2015-02-26.odp).
+[This](public/presentations/Infosec101-FCC.pdf) short presentation was given to the Foreign Correspondents Club in HK in February 2015. [Here](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.pdf) is an alternative version, somewhat drier, but more comprehensive.
 
 ### Further Resources
 
