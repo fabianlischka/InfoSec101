@@ -9,7 +9,7 @@ An introduction on basic information security practices ("[InfoSec101](p1-InfoSe
 
 
 ### Presentation
-[This](public/presentations/Infosec101-FCC.pdf) short presentation was given to the Foreign Correspondents Club in HK in February 2015. [Here](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.pdf) is an alternative version, somewhat drier, but more comprehensive.
+[This](public/presentations/short-InfoSec101-FCC.pdf) short presentation was given to the Foreign Correspondents Club in HK in February 2015. [Here](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.pdf) is an alternative version, somewhat drier, but more comprehensive.
 
 ### Further Resources
 
