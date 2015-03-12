@@ -265,8 +265,11 @@ Most well known tools cannot be recommended, but SpiderOak is a better version o
 - From your IP address, your approximate location can be determined. See for example [IPLeak](http://ipleak.net).
 - A few steps you can take:
     - Regularly delete all cookies/history
+        - Note: this requires you to log in again on all websites, so use with care.
+        - It might trigger "you're logging in from an unknown device" warnings, particularly if you're traveling or using a VPN
     - Browse in Private mode ("porn mode")
     - Use different browsers for different tasks (private/job/sensitive)
+    - [Uninstall Flash](https://duckduckgo.com/?q=uninstall+flash). Fewer and fewer websites require this legacy technology riddled with security holes.
     - Install some of the tools in the next section
 - If you ignore warnings about security certificates, MITM ("men in the middle") attackers could read all your traffic (incl. password)
 - Always use HTTPS, if possible, as it encrypts your traffic. Some browser extensions do this for you automatically
