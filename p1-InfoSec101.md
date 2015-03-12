@@ -397,34 +397,36 @@ A password based on a long, creative passphrase might really be the state of the
 - Unfortunately, the most popular apps are spectacularly insecure
 - Fortunately, there are some decent and free alternatives out there!
 - Levels of security
-    - Many apps don't encrypt content at all, or badly. Not recommended. Very dangerous, as your conversations could easily be intercepted or altered by:
+    1. **No encryption:** Many apps don't encrypt content at all, or badly. Not recommended. Very dangerous, as your conversations could easily be intercepted or altered by:
         - the café whose Wifi you are using,
         - your internet service provider,
         - your government,
         - the company/provider.
-    - Some apps encrypt the communication all the way to their server, and from there to the other device. Careful, only partial encryption!
+    2. **Partial encryption:** Some apps encrypt the communication all the way to their server, and from there to the other device. Careful, only partial encryption!
         - This is fairly secure against random hackers, or the café whose Wifi you are usin.
         - However, nobody knows what happens on the server itself.
         - Your government could have a pipe to there, or
         - the company itself could spy on it, analyse it, sell it.
-    - The most secure is end-to-end encryption, meaning only the two devices that are communicating know the keys, and NOBODY inbetween can decrypt what is happening. Recommended.
+    3. **End-to-end encryption:** The most secure is end-to-end encryption, meaning only the two devices that are communicating know the keys, and NOBODY inbetween can decrypt what is happening. Recommended.
         - However, meta data (with whom do you chat how often how much) can still be seen with some of these.
 - MITM (man in the middle attack)
     - One weakness of end-to-end encryption is the [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
-    - To circumvent that, the software shows you something representing the key used, such as a two-word phrase, or a square pixely picture. You should compare with the person that you're communicating with, on a second independent channel, to ensure that you're both talking to each other without anyone in the middle.
+    - To circumvent that, the software shows you something representing the key used, such as a two-word phrase, or a square pixely picture. You should compare with the person that you're communicating with, on a second independent channel (*"out-of-band"*), to ensure that you're both talking to each other without anyone in the middle.
 
 
 ### Suggested Tools: Secure Chat (Text)
 
 (Note: The EFF score refers to the [EFF ScoreCard](https://www.eff.org/secure-messaging-scorecard) for secure messaging.)
 
-- Recommended
-  - **iMessage**: End-to-end encrypted. Closed source. Apple only. EFF score 5/7 [Link](https://www.apple.com/ios/messages/)
-  - **Telegram**: End-to-end encrypted (“secret Chat” only!). Open source. EFF score 5/7. Desktop versions available. [Link](https://telegram.org/)
-  - **TextSecure**: End-to-end encrypted. Android, but iOS version on the way. Open source. EFF score 7/7. [Link](https://whispersystems.org/)
-  - **Threema**: End-to-end encrypted. Closed source. EFF score 5/7 [Link](https://threema.ch/en)
+We recommend **iMessage** for Apple users, and **Signal** and **TextSecure** for smartphones (iOS and Android, respectively).
 
-- Recommended for advanced users:
+- Recommended
+  - **iMessage**: End-to-end encrypted. Apple only. Closed source. EFF score 5/7 [Link](https://www.apple.com/ios/messages/)
+  - **Signal**: End-to-end encrypted, compatible with TextSecure. iOS. Also supports voice calls. Open source. EFF score 7/7. [Link](https://whispersystems.org/blog/signal/)  
+  - **Telegram**: End-to-end encrypted (“secret Chat” only!). Smartphones and computers. Open source. EFF score 5/7. [Link](https://telegram.org/)
+  - **TextSecure**: End-to-end encrypted, compatible with Signal. Android. Open source. EFF score 7/7. [Link](https://whispersystems.org/)
+
+- Recommended for advanced users that are happy with fiddly setups:
   - **Adium**: OTR chat for OS X, EFF score 6/7. A bit clunky. [Link](https://www.adium.im)
   - **ChatSecure**: OTR chat for iOS, Android. A bit clunky. EFF score 7/7. [Link](https://chatsecure.org/)
   - **Pidgin + OTR**: OTR chat for Windows, EFF score 7/7 [Link](https://otr.cypherpunks.ca)
@@ -438,7 +440,10 @@ A password based on a long, creative passphrase might really be the state of the
 
 ### Suggested Tools: Secure Voice calls
 
-  - **Signal/Redphone**: Free, encrypted calls. EFF score 7/7 [Link](https://whispersystems.org/blog/signal/)
+We recommend **FaceTime** for Apple users, and **Signal** and **Redphone** for smartphones (iOS and Android, respectively).
+
+  - **Redphone**: Free, encrypted calls, compatible with Signal. Android. Open Source. EFF score 7/7 [Link](https://whispersystems.org/blog/signal/)
+  - **Signal**: Free, encrypted calls, compatible with Redphone. iOS. Also supports text chat. Open Source. EFF score 7/7 [Link](https://whispersystems.org/blog/signal/)
 
 - Careful, only partial encryption: Google Hangout (Voice/Video)
 - Not recommended: Normal phone calls, Skype
