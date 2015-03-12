@@ -237,11 +237,17 @@ A password based on a long, creative passphrase might really be the state of the
 
 - Be aware of what is in the cloud
 - iOS/OS X keep your contacts, calendars, photos in iCloud
-- The iCloud celebrity photo hack was most likely a mix of bad passwords and social engineering
+    - The iCloud celebrity photo hack was most likely a mix of bad passwords and social engineering
 
 ### Suggested Tools: Cloud Storage
 
-- Encrypted, but experimental: TorrentSync
+Most well known tools cannot be recommended, but SpiderOak is a better version of DropBox, and BitTorrentSync a good alternative for many purposes.
+
+- Recommended:
+  - **BitTorrentSync**: Distributed backup, alternative to Cloud storage. All platforms.  [Link](https://www.getsync.com)
+      - Allows you to share and sync folders across devices that you choose (your own, or eg among a group of people) 
+  - **SpiderOak**: Cloud backup. Encrypted. All platforms. [Link](https://spideroak.com)
+      - Like DropBox, but better encryption.
 - Careful, only partial encryption: Dropbox, Google Drive, iCloud
 - Not recommended at all: 360 Cloud Disk, Baidu Cloud Disk, QQ Net Disk
 - Note: Whatever you encrypt yourself with PGP you can put on any cloud server, as it can't be decrypted without your private key
