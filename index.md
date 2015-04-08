@@ -15,7 +15,7 @@ An introduction on basic information security practices ("[InfoSec101](p1-InfoSe
 
 1. [InfoSec101](p1-InfoSec101). How can you keep your information private and secure? An introduction (covering more secure passwords, browsing, chatting, etc.), including a curated, commented list of recommended software. 
 
-2. [What to do next](p2-WhatToDoNext). A concrete list of some quick and simple steps, for users of computers (OS X, Windows), and smart phones (iOS, Android).
+2. [What to do next](p2-WhatToDoNext). A concrete list of some quick and simple steps, for users of computers (OS X, Windows), and smart phones (iOS, Android), and a list of further guides.
 
 3. If you're not yet convinced that one ought to care about Information Security, there is some [background, motivation, examples, and quotes](p3-Motivation). 
 
