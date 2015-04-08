@@ -165,7 +165,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 * [Encryption Works](https://freedom.press//encryption-works). A guide for journalists on “How to Protect Your Privacy in the Age of NSA Surveillance”. Somewhat out-of-date.
 * [Journalist Security Guide](https://cpj.org/reports/2012/04/information-security.php). A guide on information security, part of a guide for (general) security for journalists by the *Committee to Protect Journalists*
 * [Planning Digital Security for your Story](http://www.scribd.com/doc/209968137/Threat-Modeling-Planning-Digital-Security-for-your-Story). A presentation by Jonathan Stray on information security for journalists
-* [Privacy 101](https://www.privacyinternational.org/resources/privacy-101).
+* [Privacy 101](https://www.privacyinternational.org/?q=privacy-101).
 
 ### Commented lists of tools
 
