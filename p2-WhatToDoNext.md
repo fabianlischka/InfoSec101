@@ -45,6 +45,8 @@ We recommend only a small subset of all available tools - the ones we consider "
 
 In summary, our list below includes tools that are not too hard to use, preferably open source, with good enough crypto, preferably cheap or free.
 
+Also see the EFF Surveillance Self-Defense Guide on [Choosing Your Tools](https://ssd.eff.org/en/module/choosing-your-tools) and [Seven Steps To Digital Security](https://ssd.eff.org/en/node/74).
+
 
 ### xkcd on: Security and the Weakest Link
 
@@ -91,6 +93,8 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
     - consider joining [keybase.io](https://keybase.io)
     - download other people's public keys, and send them your first encrypted message
 
+- Also see the [EFF Surveillance Self-Defense Guide on How to use PGP for Mac OS X](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x)
+
 ## <a name="wtd-win"></a> What to do: Windows
 
 ### What to do: Windows - Today
@@ -119,6 +123,9 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
     - download other people's public keys, and send them your first encrypted message
 - Consider
     - **Pidgin + OTR**: OTR chat for Windows, EFF score 7/7. [Link](https://otr.cypherpunks.ca)
+
+- Also see the [EFF Surveillance Self-Defense Guide on How to use PGP for Windows](https://ssd.eff.org/en/module/how-use-pgp-windows-pc)
+
 
 ## <a name="wtd-ios"></a> What to do: iOS
 
@@ -163,6 +170,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 * [Doxxing Defense](http://www.computerworld.com/article/2849263/doxxing-defense-remove-your-personal-info-from-data-brokers.html#tk.cwfb). A guide on how to remove your personal information from data brokers
 * [Email Self Defense](https://emailselfdefense.fsf.org/en/). A guide to setting up encrypted email on the desktop, unfortunately somewhat confusing and out-of-date.
 * [Encryption Works](https://freedom.press//encryption-works). A guide for journalists on “How to Protect Your Privacy in the Age of NSA Surveillance”. Somewhat out-of-date.
+* [Information Security for Journalists](http://www.tcij.org/resources/handbooks/infosec). Excellent guide from The Centre for Investigative Journalism, covering the Operating System, Safe Browsing, Data, Email, Instant Messaging, Phone & Voice/Video Calls, and Passwords. Targets a higher level of risk and security than this present InfoSec101. Aailable in many formats.
 * [Journalist Security Guide](https://cpj.org/reports/2012/04/information-security.php). A guide on information security, part of a guide for (general) security for journalists by the *Committee to Protect Journalists*
 * [Planning Digital Security for your Story](http://www.scribd.com/doc/209968137/Threat-Modeling-Planning-Digital-Security-for-your-Story). A presentation by Jonathan Stray on information security for journalists
 * [Privacy 101](https://www.privacyinternational.org/?q=privacy-101).
@@ -170,6 +178,6 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 ### Commented lists of tools
 
 * [EFF Secure Messaging Scorecard](https://www.eff.org/secure-messaging-scorecard). A useful list and brief evaluation of chat apps, for all platforms.
+* [EFF Surveillance Self-Defense](https://ssd.eff.org/en/index). A useful guide and list of tutorials about many aspects of information security
 * [Guardian Project](https://guardianproject.info/howto/). Tutorials and tools for a few privacy tools.
 * [Prism Break](http://prism-break.org/en/all/). A very comprehensive overview about a lot of apps and software, with some good comments, for all platforms. Note: Only Free/Open Source tools are considered, not commercial ones.
-* [Surveillance Self Defense](https://ssd.eff.org/en/index). A useful guide and list of tutorials about many aspects of information security

@@ -30,7 +30,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
         - Computers can try **lots** of combinations in a short time
         - The "dictionaries" used are comprehensive and smartly compiled
     2. Hack into a site, and get the usernames and passwords (*Database breach*)
-        - Properly implemented websites store passwords in a way that makes this nearly impossible
+        - For properly implemented websites, that is quite hard
         - Many sites are not properly implemented though...
         - Now, use the passwords learned from this breach, and try them on other sites (email accounts, bank accounts, twitter, ...)
     3. Social engineering (*"I lost my password"*)
@@ -39,22 +39,29 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
             - Mother's maiden name
             - Birthday
         - Hackers call, and pretend to be the owner of the account, ask for password reset
-- How can we protect against this? Three counter measures:
+- How can we protect against this? Three possible counter measures come to mind:
     1. Use good passwords, hard to guess
     2. Don't re-use passwords across sites
     3. Disable "Security Questions" (eg give bogus answers)
-- Problem: These counter measures conflict!
+- Problem: These counter measures conflict, and are not really practicable!
     - Passwords that are hard to guess are hard to remember... 
     - Now have a different one for every site, and you have to remember many! 
     - And, without security questions, you cannot recover it when you (inevitably) forget one!
-- Solution: Password manager
-    
-    
+- Possible solutions:
+    1. Password manager
+        - Remember one strong *master password* to unlock the password manager.
+        - Let the password manager create random passwords for all websites etc., and let the password manager store them (secured by the master password)
+    2. Levels of passwords
+        - Remember a few strong *master passwords* for the important sites (bank, email, etc.)
+        - Re-use some crappy password for unimportant sites (most of them)
+    3. "Algorithmic" passwords
+        - Remember one strong *master password*
+        - Derive a unique password for each site from that master password algorithmically. For example:
+            - take the first letter from the website name, then "+", then your master password, then the first vowel and last letter from the website name.
+
+
 ### First Steps: Passwords
 
-- Overall strategy:
-    - Use one or two strong *master passwords*, and a password manager
-    - Let the password manager create random passwords for all websites etc.
 - Weak passwords & common mistakes
     - Avoid [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords), such as `password, letmein, secret`
     - Avoid:
@@ -73,16 +80,18 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
     - Some examples of bad passwords from the 2012 LinkedIn breach and the 2010 Gawker breach:
 ![PopularPasswords](../public/images/popular-passwords.jpg)
 - Strong passwords & best practice
-    - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*). This is the [Schneier Scheme](https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html):
+    - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*). This is the [*Schneier Scheme*](https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html):
         - *Example:* "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
-        - *Eample:* "When I was 18 I dated Miranda Kerr for atleast 2 weeks, no seriously" turns into `WIw18IdMKfa2wns`
+        - *Eample:* "When I was 18 I dated Miranda Kerr for at least 2 weeks, no seriously" turns into `WIw18IdMKfa2wns`
         - Use a creative, weird, unique passphrase, possibly multi-language.
         - Don't use a well known catch phrase, song lyrics, movie quote etc. Make up your own phrase!
         - Should be a long phrase, resulting in at least 12 characters, including numbers, small/capital letters, symbols, etc. (beyond simple substitution)
         - Check that the result does not accidentally contain existing words, acronyms, etc.
         - (Keep in mind that you might encounter different keyboard layouts when using other computers, eg when traveling)
-    - Good technique 2: Use 4 or 5 *randomly* selected words from a large dictionary, maybe each truncated at 5 or 4 characters
+    - Good technique 2: Use 5 or more *randomly* selected words from a large dictionary, maybe truncating some, and concatenate, maybe adding numbers or symbols inbetween. This is the *xkcd Scheme*, see the comic below.
         - *Example:* "keelhaul", "cleistogamy", "evince", "vacuum" turns into `keel3clei6evin9vacu`
+        - Choose the words randomly from a long enough list, NOT some words that "come to your mind"! (rose, hammer, love, anyone?)
+        - Good method: [Dice Ware](http://world.std.com/~reinhold/diceware.html)
     - Maybe: Test your passwords
         - Password "quality test" routines are available
         - Password quality can be measured in
@@ -181,10 +190,10 @@ A password based on a long, creative passphrase might really be the state of the
     - the server (whatever is before the first slash) must be read from right to left (so, this is not a good link: www.mybank.com.domain.bla.phishingsite.xyz/login.html)
 - Prevention:
     - be suspicious of unexpected, somewhat generic emails
-    - read the link before you click (*actual* link, not displayed)
-    - don't click on links in emails to "log in" somewhere
-        - use your own bookmarks, or just type it in
-    - check the exact name of the website, and the "lock" symbol
+    - examine the link before you click (*actual* link, not displayed), but note that even if that looks right, it could still be phishy!
+        - better: just don't click on links in emails to "log in" somewhere
+        - instead: use your own bookmarks, or just type it in
+    - **check the URL (the exact name of the website), and the "lock" symbol, before you type your password**
     - never provide your password to anyone, except the *actual* website it's for
 
 ### Malware
@@ -219,8 +228,8 @@ A password based on a long, creative passphrase might really be the state of the
 - Recommended:
   - **FileVault**: Disk encryption. OS X. Enable in System Preferences -> Security & Privacy. Requires restart. [Link](http://support.apple.com/en-us/HT4790)
   - **BitLocker**: Disk encryption. Windows. [Link](http://windows.microsoft.com/en-US/windows7/products/features/bitlocker) 
-- Careful:
-  - **TrueCrypt** appears to have some issues, the developers don't recommend its use anymore
+- For experts:
+  - **TrueCrypt**: Powerful disk encryption. Windows, OS X, Linux. While [the developers stepped back from the project](http://truecrypt.sourceforge.net), it recently passed a [security audit](https://www.schneier.com/blog/archives/2015/04/truecrypt_secur.html) and is [generally regarded as safe](https://www.grc.com/misc/truecrypt/truecrypt.htm). [Link](https://truecrypt.ch)
 - Also see [Disk Encryption on Prism Break](http://prism-break.org/en/all/#disk-encryption)
 
 ### Deleting Data
@@ -296,8 +305,8 @@ Most well known tools cannot be recommended, but SpiderOak is a better version o
 
 - Recommended Tools:
   - **Adblock Plus**: Blocks ads when browsing. Android, Chrome, Firefox, IE, Opera, Safari. Lets “acceptable ads” through by default. [Link](https://adblockplus.org)
-  - **AlwaysHTTPS**: Encrypts your browsing with many websites. Firefox, Chrome, Opera [Link](https://www.eff.org/https-everywhere)
   - **Ghostery**: Stops trackers when browsing. Uploads anonymized tracker data by default. Firefox, Chrome, Opera, Safari [Link](https://www.ghostery.com/en/)
+  - **HTTPSEverywhere**: Encrypts your browsing with many websites. Firefox, Chrome, Opera [Link](https://www.eff.org/https-everywhere)
   - **Privacy Badger**: Stops advertisers and trackers when browsing. Firefox, Chrome. From the EFF. [Link](https://www.eff.org/privacybadger)
 
 - Alternatives:
@@ -354,6 +363,10 @@ Most well known tools cannot be recommended, but SpiderOak is a better version o
     - **ZenMate**: Browser add-on. Routes only browser through a VPN, NOT other apps (Mail, Messenger, etc.). Free. Chrome, FireFox, Opera. [Link](https://zenmate.com)
 - to test whether the VPN works correctly, visit [IPLeak](http://ipleak.net), for example, and see what it thinks your IP address and location are.
 
+- Also see the [EFF Surveillance Self-Defense Guide to Choosing a VPN](https://ssd.eff.org/en/module/choosing-vpn-thats-right-you)
+- Also see the [EFF Surveillance Self-Defense Guide to Circumventing Censorship](https://ssd.eff.org/en/module/how-circumvent-online-censorship)
+
+
 ## <a name="steps-email"></a> Email
 
 ### Basic Steps: Secure Email
@@ -379,8 +392,11 @@ Most well known tools cannot be recommended, but SpiderOak is a better version o
   - **GPGTools**: not free anymore. GPG on OS X Mail. EFF score 5/7. [Link](https://gpgtools.org)
   - **iPGMail**: not free. GPG for iOS Mail. Closed source. EFF score 4/7. [Link](https://ipgmail.com/)
 - Not recommended at all for sensitive information: Normal email
+
+- Also see the [Introduction to Public Key Cryptography and PGP in the EFF Surveillance Self-Defense Guide](https://ssd.eff.org/en/module/introduction-public-key-cryptography-and-pgp)
 - Also see [Email Encryption on Prism Break](https://prism-break.org/en/all/#email-encryption)
 - Also see [Encrypted Email on arsTechnica](http://arstechnica.com/security/2013/06/encrypted-e-mail-how-much-annoyance-will-you-tolerate-to-keep-the-nsa-away/)
+
 
 ### PGP Best Practices
 
@@ -390,8 +406,6 @@ Most well known tools cannot be recommended, but SpiderOak is a better version o
 - Set an expiry date in, say 2 years
     - this allows you to retire the key automatically when you lose the private key
     - you can always extend your key, or upload a new one
-- Avoid sending very similar messages with only small changes, re-using greeting and signature, etc.
-    - the Nazi's Enigma was broken faster because every message ended with "Heil Hitler"
 - Beware of drafts stored in clear text on the mail server.
     - either enable "encrypt drafts", or go off-line while composing sensitive emails
 - Note: anyone can upload keys to keyservers, so you cannot trust that any key you download actually belongs to the individual listed in the key. You should therefore verify with the individual owner the full key fingerprint of their key. You should do this verification in real life or over the phone.
@@ -432,7 +446,6 @@ We recommend **iMessage** for Apple users, and **Signal** and **TextSecure** for
 - Recommended
   - **iMessage**: End-to-end encrypted. Apple only. Closed source. EFF score 5/7 [Link](https://www.apple.com/ios/messages/)
   - **Signal**: End-to-end encrypted, compatible with TextSecure. iOS. Also supports voice calls. Open source. EFF score 7/7. [Link](https://whispersystems.org/blog/signal/)  
-  - **Telegram**: End-to-end encrypted (“secret Chat” only!). Smartphones and computers. Open source. EFF score 5/7. [Link](https://telegram.org/)
   - **TextSecure**: End-to-end encrypted, compatible with Signal. Android. Open source. EFF score 7/7. [Link](https://whispersystems.org/)
 
 - Recommended for advanced users that are happy with fiddly setups:
@@ -444,6 +457,7 @@ We recommend **iMessage** for Apple users, and **Signal** and **TextSecure** for
 - Not recommended at all: Firechat, Google Hangout, Google Talk Talk, ICQ, Kik, Kaoko, QQ, Snapchat, Viber, WeChat, Whisper
 - Not recommended at all: SMS
 
+- Also see the [EFF Surveillance Self-Defense Guide to using Signal](https://ssd.eff.org/en/module/how-use-signal-–-private-messenger)
 - Also see the [EFF ScoreCard](https://www.eff.org/secure-messaging-scorecard)
 - Also see [Prism Break on Instant Messaging](http://prism-break.org/en/all/#instant-messaging)
 
@@ -476,6 +490,7 @@ We recommend **FaceTime** for Apple users, and **Signal** and **Redphone** for s
     - If your mobile phone is connected, your cell phone provider knows where it is (even if it's not a smart phone)
     - If your mobile phone is a smart phone, your phone knows where it is (and can record/share it)
     - If you're meeting an important source, consider leaving your phone at home
+    - Also see [The Problem with Mobile Phones](https://ssd.eff.org/en/module/problem-mobile-phones) in the EFF Surveillance Self Defense Guide
 - If you give someone information, you might reveal more than you thought:
     - Your phone number, email can be googled: what to they reveal?
     - Reverse Image Search sites such as [TinEye](http://tineye.com) or [Google](http://www.google.com/insidesearch/features/images/searchbyimage.html) allow someone to see whether a picture appears elsewhere on the net, eg Facebook, LinkedIn, Twitter, or your employer's website
@@ -483,7 +498,6 @@ We recommend **FaceTime** for Apple users, and **Signal** and **Redphone** for s
         - There are tools availble to remove that information, known as EXIF strippers or metadata scrubbers.
         - Recommended (but maybe a bit complicated): ExifTool. Windows, OS X, UNIX. [Link](http://www.sno.phy.queensu.ca/~phil/exiftool/index.html)
     - The IP address of your computer can lead to your ISP, and then to you.
-
 
 ### Multiple Accounts
 
