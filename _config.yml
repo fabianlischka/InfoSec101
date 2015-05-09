@@ -18,8 +18,8 @@ author:
 
 
 
-baseurl: "/InfoSec101"
-# url: "http://fabianlischka.github.io/InfoSec101" needed?
+baseurl:           ''
+url: "http://infosec101.de"
 
 
   
@@ -33,9 +33,3 @@ permalink:        pretty
 relative_permalinks: false
 
 
-# old stuff
-# when using hyde's index.html, which creates a paginated list of blog posts:
-# paginate:         5
-
-# url:              http://hyde.getpoole.com
-# baseurl:          /
