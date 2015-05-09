@@ -16,17 +16,17 @@ author:
 #  url:            https://www.something.de
 
 
-
-
 baseurl:           'http://infosec101.de'
 url:               'http://infosec101.de'
 
 
-  
 # Build settings
 exclude: ["old/","*.numbers"]
 markdown: redcarpet
 highlighter:      pygments
+
+gems:
+    - jekyll-sitemap
 
 # Permalinks
 permalink:        pretty
