@@ -17,7 +17,7 @@ author:
 
 
 baseurl:           'http://infosec101.de'
-url:               'http://infosec101.de'
+# url:               'http://infosec101.de'
 
 
 # Build settings
