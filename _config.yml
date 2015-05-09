@@ -18,8 +18,8 @@ author:
 
 
 
-baseurl:           ''
-url: "http://infosec101.de"
+baseurl:           'http://infosec101.de'
+url:               'http://infosec101.de'
 
 
   
