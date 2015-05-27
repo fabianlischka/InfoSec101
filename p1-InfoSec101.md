@@ -20,6 +20,18 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 
 ---
 
+## Overview: Basic security practice
+
+- Use good passwords, and manage them well (best using a *password manager)*
+    - Be particularly careful with your email password
+- Recognize and avoid *Phishing*
+- Encrypt your disk
+- When browsing sensitive topics, use *Tor.*
+- Consider using a *VPN*
+- Communicate securely, eg using *PGP Signal,* or *OTR,* and employ out-of-band key verification.
+- Keep track of your sensitive information (cloud, backups, copies, logs)
+- Have a strategy and a plan, think it through. Formulate a threat model, and handle it.
+
 
 ## <a name="steps-passwords"></a> Passwords & Phishing
 
@@ -112,8 +124,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
     - One of the most common ways that accounts are compromised (particularly for "celebrities", for whom a lot of information is publically available)
     - Thus:
         - avoid, or 
-        - give bogus answers
-            - Like `T$adf^VFBG(*&O(N%R^BHN*UOI`
+        - give bogus answers (like `T$adf^VFBG(*&O(N%R^BHN*UOI`)
             - Needless to say, this can complicate things when you DO forget your password.
             - However, you can store these bogus answers in your password manager!
 - Multi-factor authentication
@@ -126,6 +137,10 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 - Enable notifications of changes
     - Apple's iCloud notifies you when you change your password or amend personal information
     - Facebook notifies you when you log in from an unknown device
+- Take special care with your email password
+    - Most sites allow you to reset your password via email. Thus:
+    - If someone has access to your email, they effectively have all your passwords
+
 
 ---
 #### xkcd on: Passwords
