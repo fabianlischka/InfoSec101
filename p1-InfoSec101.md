@@ -211,6 +211,12 @@ A password based on a long, creative passphrase might really be the state of the
     - **check the URL (the exact name of the website), and the "lock" symbol, before you type your password**
     - never provide your password to anyone, except the *actual* website it's for
 
+**Example:**
+
+![Phishing example](../public/images/Phishing-example-mail-server.png)
+
+Note the typos, and that the link leads to *instructoo.com* (read from right to left), not *apple.de*. This is clearly phishing, and can be deleted.
+
 ### Malware
 
 - Rule of thumb: if it's free, it's crap.
