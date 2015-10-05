@@ -32,6 +32,7 @@ Source: [Snowden's website](https://edwardsnowden.com/2014/01/27/video-ard-inter
 4. Make it normal, rather than a "red flag"
     - The rumor is that the NSA records ALL encrypted communication it encounters
 
+Also see this TED talk: "[Why Privacy Matters](http://www.ted.com/talks/glenn_greenwald_why_privacy_matters)", by Glenn Greenwald
 
 ### What are the issues: Some Examples
 
