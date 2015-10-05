@@ -241,10 +241,11 @@ A password based on a long, creative passphrase might really be the state of the
 
 - Automatically enabled in iOS 8, and Android L. Can be set up for earlier Android versions (from HoneyComb onwards?)
 - Recommended:
-  - **FileVault**: Disk encryption. OS X. Enable in System Preferences -> Security & Privacy. Requires restart. [Link](http://support.apple.com/en-us/HT4790)
-  - **BitLocker**: Disk encryption. Windows. [Link](http://windows.microsoft.com/en-US/windows7/products/features/bitlocker) 
+  - **FileVault**: Simple disk encryption. OS X. Enable in System Preferences -> Security & Privacy. Requires restart. [Link](http://support.apple.com/en-us/HT4790)
+  - **BitLocker**: Simple disk encryption. Windows. [Link](http://windows.microsoft.com/en-US/windows7/products/features/bitlocker) 
 - For experts:
-  - **TrueCrypt**: Powerful disk encryption. Windows, OS X, Linux. While [the developers stepped back from the project](http://truecrypt.sourceforge.net), it recently passed a [security audit](https://www.schneier.com/blog/archives/2015/04/truecrypt_secur.html) and is [generally regarded as safe](https://www.grc.com/misc/truecrypt/truecrypt.htm). [Link](https://truecrypt.ch)
+  - **VeraCrypt**: Powerful disc encryption. OS X, Windows. Successor to TrueCrypt. [Link](https://veracrypt.codeplex.com)
+  - (maybe: **TrueCrypt**: Powerful disk encryption. Windows, OS X, Linux. While [the developers stepped back from the project](http://truecrypt.sourceforge.net), it recently passed a [security audit](https://www.schneier.com/blog/archives/2015/04/truecrypt_secur.html) and is [generally regarded as safe](https://www.grc.com/misc/truecrypt/truecrypt.htm). [Link](https://truecrypt.ch) )
 - Also see [Disk Encryption on Prism Break](http://prism-break.org/en/all/#disk-encryption)
 
 ### Deleting Data
