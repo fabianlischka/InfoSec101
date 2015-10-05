@@ -22,6 +22,11 @@ This is an [introduction to basic information security practices ("InfoSec101")]
 ### Presentation
 [This](public/presentations/short-InfoSec101-FCC.pdf) short presentation was given to the [Foreign Correspondents Club in HK in February 2015](http://fcchk.org/event/club-workshop-information-security-101-protect-your-data-protect-your-sources). [Here](public/presentations/InfoSec101-Presentation-FCC-2015-02-26.pdf) is an alternative version, somewhat drier, but more comprehensive.
 
+### Updates
+
+* 2015-10-05: *Reporta*, security app designed for journalists, [might not be as secure as claimed.](http://motherboard.vice.com/en_uk/read/reverse-engineering-proves-journalist-security-app-unsafe)
+* 2015-09-22: More [security flaws and fixes for Flash](http://krebsonsecurity.com/2015/09/adobe-flash-patch-plus-shockwave-shocker/). Really - just uninstall it completely. 
+* 2015-03-02: [Open Whisper Systems](https://whispersystems.org) released [Signal 2.0 for iPhone](https://whispersystems.org/blog/the-new-signal/). This is the recommended solution now for voice and text chat for iOS (Signal) and Android (RedPhone, TextSecure).
 
 ### Meta-Notes
 These documents are intended as a supplement to an introductory talk on Information Security for (non-IT) professionals.
