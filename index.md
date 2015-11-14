@@ -24,6 +24,13 @@ This is an [introduction to basic information security practices ("InfoSec101")]
 
 ### Updates
 
+* 2015-11-15: Ed Snowden, in an [interview with The Intercept](https://theintercept.com/2015/11/12/edward-snowden-explains-how-to-reclaim-your-privacy/), recommends: 
+    * use Signal by Open Whisper Systems, 
+    * encrypt your hard disk, 
+    * use a password manager, 
+    * enable Two-Factor-Authentication. 
+    * use Tor, 
+    * use ad block software.
 * 2015-10-05: *Reporta*, security app designed for journalists, [might not be as secure as claimed.](http://motherboard.vice.com/en_uk/read/reverse-engineering-proves-journalist-security-app-unsafe)
 * 2015-09-22: More [security flaws and fixes for Flash](http://krebsonsecurity.com/2015/09/adobe-flash-patch-plus-shockwave-shocker/). Really - just uninstall it completely. 
 * 2015-03-02: [Open Whisper Systems](https://whispersystems.org) released [Signal 2.0 for iPhone](https://whispersystems.org/blog/the-new-signal/). This is the recommended solution now for voice and text chat for iOS (Signal) and Android (RedPhone, TextSecure).
