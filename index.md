@@ -24,6 +24,7 @@ This is an [introduction to basic information security practices ("InfoSec101")]
 
 ### Updates
 
+* 2015-11-19: Added the (advanced) [OS X Security and Privacy Guide](https://github.com/drduh/OS-X-Security-and-Privacy-Guide).
 * 2015-11-15: Ed Snowden, in an [interview with The Intercept](https://theintercept.com/2015/11/12/edward-snowden-explains-how-to-reclaim-your-privacy/), recommends: 
     * use Signal by Open Whisper Systems, 
     * encrypt your hard disk, 

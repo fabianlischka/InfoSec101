@@ -10,6 +10,7 @@ Here you'll find some concrete steps (some simple, some a bit more involved) to 
 - [for Windows](#wtd-win)
 - [for iPhones (iOS)](#wtd-ios)
 - [for Android](#wtd-android)
+- and [many more links](#further-links) with further guides, tools, and background info
 
 ## Suggested Tools: Selection & Criteria
 
@@ -94,6 +95,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
     - download other people's public keys, and send them your first encrypted message
 
 - Also see the [EFF Surveillance Self-Defense Guide on How to use PGP for Mac OS X](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x)
+- For advanced users, also see the [OS X Security and Privacy Guide](https://github.com/drduh/OS-X-Security-and-Privacy-Guide)
 
 ## <a name="wtd-win"></a> What to do: Windows
 
@@ -173,7 +175,8 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 * [Information Security for Journalists](http://www.tcij.org/resources/handbooks/infosec). Excellent guide from The Centre for Investigative Journalism, covering the Operating System, Safe Browsing, Data, Email, Instant Messaging, Phone & Voice/Video Calls, and Passwords. Targets a higher level of risk and security than this present InfoSec101. Aailable in many formats.
 * [Journalist Security Guide](https://cpj.org/reports/2012/04/information-security.php). A guide on information security, part of a guide for (general) security for journalists by the *Committee to Protect Journalists*
 * [Planning Digital Security for your Story](http://www.scribd.com/doc/209968137/Threat-Modeling-Planning-Digital-Security-for-your-Story). A presentation by Jonathan Stray on information security for journalists
-* [Privacy 101](https://www.privacyinternational.org/?q=privacy-101).
+* [Privacy 101](https://www.privacyinternational.org/?q=privacy-101). Background info by Privacy International, a registered UK charity.
+* [OS X Security and Privacy Guide](https://github.com/drduh/OS-X-Security-and-Privacy-Guide). A somewhat advanced guide for OS X power users.
 
 ### Commented lists of tools
 
