@@ -45,6 +45,7 @@ title: Technical Background
     - to another network, ISP, server, ...
     - etc.
 - Basically, by default, in clear text: everyone on the way could read along
+- For (just a bit) more details, see this short extract from a Udacity course on Youtube, ["Review of Clients, Servers, and Protocols"](https://www.youtube.com/watch?v=gE5WUbmb6Cc).
 
 
 ## Metadata
