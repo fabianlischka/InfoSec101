@@ -24,6 +24,7 @@ This is an [introduction to basic information security practices ("InfoSec101")]
 
 ### Updates
 
+* 2015-12-25: Added reminder to [avoid short passwords](https://blog.codinghorror.com/your-password-is-too-damn-short/) and use at least 12 characters; added [GCF Internet Safety link](http://www.gcflearnfree.org/internetsafety)
 * 2015-11-23: Added short [youtube video on Clients, Servers, Protocols](https://www.youtube.com/watch?v=gE5WUbmb6Cc) from Udacity to the [Technical Background](p4-TechnicalBackground) page. 
 * 2015-11-19: Added the (advanced) [OS X Security and Privacy Guide](https://github.com/drduh/OS-X-Security-and-Privacy-Guide).
 * 2015-11-15: Ed Snowden, in an [interview with The Intercept](https://theintercept.com/2015/11/12/edward-snowden-explains-how-to-reclaim-your-privacy/), recommends: 
@@ -44,8 +45,8 @@ Thus:
 
 - They're not necessarily elaborate enough to be fully self-contained.
 - They're not meant to elucidate every aspect comprehensively and objectively, but to give some opionated advice on "the best" tool to use for users with
-    - average (or maybe slightly lower) technical IT background, and
-    - average (or somewhat higher) need for privacy and security of information.
+    - average technical IT background, and
+    - somewhat above average need for privacy and security of information.
 
 ### Thanks
 

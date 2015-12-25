@@ -177,6 +177,7 @@ from: "xkcd" by Randall Munroe at [xkcd.com](https://xkcd.com/538/)
 * [Planning Digital Security for your Story](http://www.scribd.com/doc/209968137/Threat-Modeling-Planning-Digital-Security-for-your-Story). A presentation by Jonathan Stray on information security for journalists
 * [Privacy 101](https://www.privacyinternational.org/?q=privacy-101). Background info by Privacy International, a registered UK charity.
 * [OS X Security and Privacy Guide](https://github.com/drduh/OS-X-Security-and-Privacy-Guide). A somewhat advanced guide for OS X power users.
+* A basic introduction to some aspects of [Internet Safety](http://www.gcflearnfree.org/internetsafety) from the Goodwill Community Foundation.
 
 ### Commented lists of tools
 

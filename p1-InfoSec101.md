@@ -76,6 +76,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 
 - Weak passwords & common mistakes
     - Avoid [weak passwords](https://en.wikipedia.org/wiki/Password_strength#Examples_of_weak_passwords), such as `password, letmein, secret`
+    - Avoid [too short passwords](https://blog.codinghorror.com/your-password-is-too-damn-short/): use at least 12 characters
     - Avoid:
         - names of pets or significant others
         - sports teams
