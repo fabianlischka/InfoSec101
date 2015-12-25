@@ -95,7 +95,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 - Strong passwords & best practice
     - Good technique 1: Use the 1st letter of the words of a long, unique sentence (the *passphrase*). This is the [*Schneier Scheme*](https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html):
         - *Example:* "Wo hěn xǐhuān HK, IT security, and (sometimes) 9 hours sleep" turns into `WhxHK,ITs&(st)9hs`
-        - *Eample:* "When I was 18 I dated Miranda Kerr for at least 2 weeks, no seriously" turns into `WIw18IdMKfa2wns`
+        - *Eample:* "When I was 18 I dated Miranda Kerr for at least 2 weeks, no seriously!" turns into `WIw18IdMKf>2w,ns!`
         - Use a creative, weird, unique passphrase, possibly multi-language.
         - Don't use a well known catch phrase, song lyrics, movie quote etc. Make up your own phrase!
         - Should be a long phrase, resulting in at least 12 characters, including numbers, small/capital letters, symbols, etc. (beyond simple substitution)
@@ -103,7 +103,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
         - (Keep in mind that you might encounter different keyboard layouts when using other computers, eg when traveling)
     - Good technique 2: Use 5 or more *randomly* selected words from a large dictionary, maybe truncating some, and concatenate, maybe adding numbers or symbols inbetween. This is the *xkcd Scheme*, see the comic below.
         - *Example:* "keelhaul", "cleistogamy", "evince", "vacuum" turns into `keel3clei6evin9vacu`
-        - Choose the words randomly from a long enough list, NOT some words that "come to your mind"! (rose, hammer, love, anyone?)
+        - Choose the words randomly from a long enough list, NOT some words that "come to your mind"! ("rose", "hammer", "love", anyone?)
         - Good method: [Dice Ware](http://world.std.com/~reinhold/diceware.html)
     - Maybe: Test your passwords
         - Password "quality test" routines are available
