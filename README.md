@@ -1,7 +1,7 @@
-(Note: this is the README with some meta-information. For the introduction/notes itself, please click `InfoSec101.md` above, or [here](https://github.com/fabianlischka/InfoSec101/blob/master/InfoSec101.md).)
+(Note: this is the README with some meta-information. The [InfoSec101 site itself is here](http://infosec101.de). 
 
-InfoSec101
-==========
+InfoSec101: Notes
+=================
 
 An introduction to Information Security for (non-IT) professionals, e.g. journalists, doctors, lawyers, political activists, etc.
 
