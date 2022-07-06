@@ -21,11 +21,11 @@ baseurl:           'http://infosec101.de'
 
 
 # Build settings
-exclude: ["old/","*.numbers"]
+exclude: ["old/","*.numbers", "vendor"]
 markdown: redcarpet
 highlighter:      pygments
 
-gems:
+plugins:
     - jekyll-sitemap
 
 # Permalinks
