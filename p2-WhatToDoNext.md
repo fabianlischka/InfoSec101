@@ -3,7 +3,12 @@ layout: page
 title: What to do next
 ---
 
+
 Here you'll find some concrete steps (some simple, some a bit more involved) to take to protect yourself and your information. At the end, there are links to [more guides and resources](#further-links).
+
+## Warning
+
+This is as of 2016, and partially obsolete.
 
 ### What to do
 - [for Macs (OS X)](#wtd-mac)

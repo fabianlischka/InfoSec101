@@ -156,8 +156,4 @@ An open standard developed by the Internet Engineering Task Force (IETF), a grou
 
 A protocol and open-source software that allows data to be transmitted around the internet in a way that not only encrypts it, but also hides its destination and origin, by routing it through several layers (thus the name). Originally developed in secrecy by the US Navy to allow spies and sources to securely route information back to the United States, it was released to the public in 2004. The Electronic Frontier Foundation (EFF) has since led its development, and the Tor browser bundle is now available for all major platforms, allowing anonymous browsing. Inside the Tor network it is possible to host sites which are incredibly difficult to locate or censor, the so called “Tor hidden services". Among them are both drug markets and platforms for whistleblowers.
 
-### Bitcoin (2008)
-[Bitcoin](https://bitcoin.org/)
-
-Proposed by the pseudonymous programmer Satoshi Nakamoto and released to the public in 2009. Its development is open to anybody, but currently dominated by the Bitcoin Foundation. The Bitcoin technology is essentially a large distributed blockchain that users can alter according to strict rules laid out in the protocol based on majority rule, thus allowing to indelibly and unanimously record transactions. Bitcoin is currently most known for the use as a digital and distributed currency that is outside the control of central banks or governments, but has also been used to record contracts, such as a marriage.
 

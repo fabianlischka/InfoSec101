@@ -11,6 +11,9 @@ title: InfoSec101
 - [Email](#steps-email)
 - [Chat and Voice Calls](#steps-chat)
 
+## Warning
+
+This is as of 2016, and partially obsolete.
 
 ### PHD comics on: Security in your neighbourhood coffee shop
 
@@ -56,8 +59,8 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
     2. Don't re-use passwords across sites
     3. Disable "Security Questions" (eg give bogus answers)
 - Problem: These counter measures conflict, and are not really practicable!
-    - Passwords that are hard to guess are hard to remember... 
-    - Now have a different one for every site, and you have to remember many! 
+    - Passwords that are hard to guess are hard to remember...
+    - Now have a different one for every site, and you have to remember many!
     - And, without security questions, you cannot recover it when you (inevitably) forget one!
 - Possible solutions:
     1. Password manager
@@ -124,7 +127,7 @@ from: "Piled Higher and Deeper" by Jorge Cham at [www.phdcomics.com](http://www.
 - Security questions: very problematic
     - One of the most common ways that accounts are compromised (particularly for "celebrities", for whom a lot of information is publically available)
     - Thus:
-        - avoid, or 
+        - avoid, or
         - give bogus answers (like `T$adf^VFBG(*&O(N%R^BHN*UOI`)
             - Needless to say, this can complicate things when you DO forget your password.
             - However, you can store these bogus answers in your password manager!
@@ -249,7 +252,7 @@ Note the typos, and that the link leads to *instructoo.com* (read from right to 
 - Automatically enabled in iOS 8, and Android L. Can be set up for earlier Android versions (from HoneyComb onwards?)
 - Recommended:
   - **FileVault**: Simple disk encryption. OS X. Enable in System Preferences -> Security & Privacy. Requires restart. [Link](http://support.apple.com/en-us/HT4790)
-  - **BitLocker**: Simple disk encryption. Windows. [Link](http://windows.microsoft.com/en-US/windows7/products/features/bitlocker) 
+  - **BitLocker**: Simple disk encryption. Windows. [Link](http://windows.microsoft.com/en-US/windows7/products/features/bitlocker)
 - For experts:
   - **VeraCrypt**: Powerful disc encryption. OS X, Windows. Successor to TrueCrypt. [Link](https://veracrypt.codeplex.com)
   - (maybe: **TrueCrypt**: Powerful disk encryption. Windows, OS X, Linux. While [the developers stepped back from the project](http://truecrypt.sourceforge.net), it recently passed a [security audit](https://www.schneier.com/blog/archives/2015/04/truecrypt_secur.html) and is [generally regarded as safe](https://www.grc.com/misc/truecrypt/truecrypt.htm). [Link](https://truecrypt.ch) )
@@ -277,7 +280,7 @@ Most well known tools cannot be recommended, but SpiderOak is a better version o
 
 - Recommended:
   - **BitTorrentSync**: Distributed backup, alternative to Cloud storage. All platforms.  [Link](https://www.getsync.com)
-      - Allows you to share and sync folders across devices that you choose (your own, or eg among a group of people) 
+      - Allows you to share and sync folders across devices that you choose (your own, or eg among a group of people)
   - **SpiderOak**: Cloud backup. Encrypted. All platforms. [Link](https://spideroak.com)
       - Like DropBox, but better encryption.
 - Careful, only partial encryption: Dropbox, Google Drive, iCloud
@@ -350,12 +353,12 @@ Most well known tools cannot be recommended, but SpiderOak is a better version o
     - Don't use your real name, or google yourself
     - Don't open documents downloaded through Tor while online.
 - The [Tor download page](https://www.torproject.org/download/download-easy.html.en) lists several security precautions; read them.
-- Domain names ending in [*.onion*](https://en.wikipedia.org/wiki/.onion) are only accessible with a Tor browser. 
+- Domain names ending in [*.onion*](https://en.wikipedia.org/wiki/.onion) are only accessible with a Tor browser.
     - For example, the Tor site of DuckDuckGo is [3g2upl4pq6kufc4m.onion](3g2upl4pq6kufc4m.onion).
 - Disadvantages:
     - Rather slow
     - final hop in the clear
-    
+
 ### Suggested Tools: Secure Browsing - TOR
 
 - Recommended Tools:
@@ -394,7 +397,7 @@ Most well known tools cannot be recommended, but SpiderOak is a better version o
 
 ### Basic Steps: Secure Email
 
-- Basic Idea: 
+- Basic Idea:
     - Encrypt your message including attachments into some blob (the *ciphertext*)
     - Send that blob via email
 - Note: Meta data is NOT encrypted/protected and can be intercepted/manipulated
@@ -468,7 +471,7 @@ We recommend **iMessage** for Apple users, and **Signal** and **TextSecure** for
 
 - Recommended
   - **iMessage**: End-to-end encrypted. Apple only. Closed source. EFF score 5/7 [Link](https://www.apple.com/ios/messages/)
-  - **Signal**: End-to-end encrypted, compatible with TextSecure. iOS. Also supports voice calls. Open source. EFF score 7/7. [Link](https://whispersystems.org/blog/signal/)  
+  - **Signal**: End-to-end encrypted, compatible with TextSecure. iOS. Also supports voice calls. Open source. EFF score 7/7. [Link](https://whispersystems.org/blog/signal/)
   - **TextSecure**: End-to-end encrypted, compatible with Signal. Android. Open source. EFF score 7/7. [Link](https://whispersystems.org/)
 
 - Recommended for advanced users that are happy with fiddly setups:
@@ -541,7 +544,7 @@ We recommend **FaceTime** for Apple users, and **Signal** and **Redphone** for s
     - transmit part of the information in iMessage, part on Signal/Redphone, part on Telegram, part on Wickr, such that having any one part is pretty useless
     - use TOR over a VPN
     - etc.
-    
+
 ### Advanced Steps
 
 - If you have highly sensitive information, you'll need to be more careful and systematic. Research:
