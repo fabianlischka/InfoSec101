@@ -24,6 +24,7 @@ This is an [introduction to basic information security practices ("InfoSec101")]
 
 ### Updates
 
+* 2016-02-19: Added link to [Paragonie's Guide to Securing Your Business's Online Presence](https://paragonie.com/blog/2015/06/guide-securing-your-business-s-online-presence-for-non-experts), also aimed at non-experts.
 * 2015-12-25: Added reminder to [avoid short passwords](https://blog.codinghorror.com/your-password-is-too-damn-short/) and use at least 12 characters; added [GCF Internet Safety link](http://www.gcflearnfree.org/internetsafety)
 * 2015-11-23: Added short [youtube video on Clients, Servers, Protocols](https://www.youtube.com/watch?v=gE5WUbmb6Cc) from Udacity to the [Technical Background](p4-TechnicalBackground) page. 
 * 2015-11-19: Added the (advanced) [OS X Security and Privacy Guide](https://github.com/drduh/OS-X-Security-and-Privacy-Guide).

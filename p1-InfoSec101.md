@@ -184,7 +184,7 @@ A password based on a long, creative passphrase might really be the state of the
       - **LastPass**: Password manager, most platforms. Cloud only. Commercial, basic use free, 12 USD/a for smartphone use. Closed. [Link](https://lastpass.com)
 - Disadvantages:
     - Can be somewhat cumbersome, particularly sync between devices
-    - If the app or password store is compromised, all your paswords are exposed
+    - If the app or password store is compromised, all your passwords are exposed
 - Also see [Password managers on Prism Break](http://prism-break.org/en/all/#password-managers)
 
 
